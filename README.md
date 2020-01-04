@@ -1,5 +1,5 @@
 # setup
-Notes for setting up a new macOS dev environment *(Follow at your own risk / benefit)*
+Notes and scripts for setting up a new macOS dev environment *(Follow at your own risk / benefit)*
 
 ## Todo: 
 - [ ] Make a bash script that automates some of this.
@@ -11,9 +11,9 @@ Notes for setting up a new macOS dev environment *(Follow at your own risk / ben
 
 `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
-Installs Xcode command line tools
-Installs Git!
-Gives access to the `brew` command.
+- Installs Xcode command line tools
+- Installs Git!
+- Gives access to the `brew` command.
 
 ### 💤 Install [Zsh](https://github.com/ohmyzsh/ohmyzsh)
 
