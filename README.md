@@ -59,5 +59,12 @@ Installs Node.JS <version> and relative NPM version.
 ## 🧼 Clean-up
 
 - Get [Custom iTerm Applescripts for Alfred](https://github.com/stuartcryan/custom-iterm-applescripts-for-alfred)
+- Add [spaces to the dock](https://css-tricks.com/snippets/html/add-spaces-to-dock-in-os-x/) 
 
+```bash
+defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}'
+```
 
+```bash
+killall Dock
+```
