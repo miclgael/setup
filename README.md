@@ -44,3 +44,13 @@ I keep a [public gist](https://gist.github.com/miclgael/79b65d3420f95a943eb9bf94
 
 `https://formulae.brew.sh/cask/mamp`
 `brew cask install mamp`
+
+## Install Sketch.app
+`brew cask install sketch`
+
+## Install Nucleo
+Vector icon manager
+`brew cask install nucleo`
+
+## Install Spotify
+`brew cask install spotify`
