@@ -42,6 +42,12 @@ brew cask install sketch nucleo
 brew cask install dashlane authy spotify alfred slack notion carbon-copy-cloner
 ```
 
+### 🎹 Install music apps
+
+```bash
+brew cask install ableton-live-suite loopback
+```
+
 ### 💚 Install [Node Version Manager](https://github.com/nvm-sh/nvm)
 
 Installs NVM (switch between multiple versions of Node.JS on the same system)
