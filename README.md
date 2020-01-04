@@ -5,9 +5,9 @@ Notes for setting up a new macOS dev environment *(Follow at your own risk / ben
 - [ ] Make a bash script that automates some of this.
 - [ ] Sync VScode extensions
 
-# Steps:
+## Steps:
 
-## Install [Homebrew](https://brew.sh/)
+### 🍻 Install [Homebrew](https://brew.sh/)
 
 `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
@@ -15,15 +15,34 @@ Installs Xcode command line tools
 Installs Git!
 Gives access to the `brew` command.
 
-## Install [iTerm](https://www.iterm2.com/)
-
-`brew cask install iterm2`
-
-## Install [Zsh](https://github.com/ohmyzsh/ohmyzsh)
+### 💤 Install [Zsh](https://github.com/ohmyzsh/ohmyzsh)
 
 `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
 
-## Install [Node Version Manager](https://github.com/nvm-sh/nvm)
+### 👩‍💻 Install development software
+
+```bash
+brew cask install iterm2 vscodium mamp codekit tableplus firefox sourcetree insomnia && \ 
+brew cask install homebrew/cask-versions/firefox-developer-edition
+```
+
+### 💻 Install preferred VS Code extensions
+
+I keep a [public gist](https://gist.github.com/miclgael/79b65d3420f95a943eb9bf94be1399c5) with a list of my extensions, ready to paste into a terminal window. (Requires access to the `code` command)
+
+### 🎨 Install design apps
+
+```bash
+brew cask install sketch nucleo
+```
+
+### 🛡 Install other misc. software
+
+```bash
+brew cask install dashlane authy spotify alfred slack notion carbon-copy-cloner
+```
+
+### 💚 Install [Node Version Manager](https://github.com/nvm-sh/nvm)
 
 Installs NVM (switch between multiple versions of Node.JS on the same system)
 
@@ -31,26 +50,8 @@ Installs NVM (switch between multiple versions of Node.JS on the same system)
 
 Installs Node.JS <version> and relative NPM version.
 
-## Install [VS Codium](https://vscodium.com/)
+## 🧼 Clean-up
 
-Installs a version VS Code with the telemetry ripped out.
-Gives access to the `code` command
-`brew cask install vscodium`
+- Get [Custom iTerm Applescripts for Alfred](https://github.com/stuartcryan/custom-iterm-applescripts-for-alfred)
 
-## Install preferred VS Code extensions
-I keep a [public gist](https://gist.github.com/miclgael/79b65d3420f95a943eb9bf94be1399c5) with a list of my extensions ready to paste.
 
-## Install [MAMP](https://www.mamp.info/en/) (untested)
-
-`https://formulae.brew.sh/cask/mamp`
-`brew cask install mamp`
-
-## Install Sketch.app
-`brew cask install sketch`
-
-## Install Nucleo
-Vector icon manager
-`brew cask install nucleo`
-
-## Install Spotify
-`brew cask install spotify`
