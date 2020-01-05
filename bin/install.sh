@@ -3,7 +3,7 @@
 USER="$HOME"
 NODE_VER="12.14.0"
 
-GREEN='\033[1;32m'
+GREEN="\033[1;32m"
 RESET="\033[0m"
 
 # 🍻 Install [Homebrew](https://brew.sh/)
