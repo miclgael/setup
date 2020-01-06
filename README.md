@@ -30,6 +30,12 @@ brew cask install homebrew/cask-versions/firefox-developer-edition
 
 I keep a [public gist](https://gist.github.com/miclgael/79b65d3420f95a943eb9bf94be1399c5) with a list of my extensions, ready to paste into a terminal window. (Requires access to the `code` command)
 
+Run it as its own script with the following command:
+
+```bash
+sh -c "$(curl -fsSL https://gist.githubusercontent.com/miclgael/79b65d3420f95a943eb9bf94be1399c5/raw/8750fefaee8ad93e9cf08fc8c26e55c34b121317/install-extensions.sh)"
+```
+
 ### 🎨 Install design apps
 
 ```bash
