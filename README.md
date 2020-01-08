@@ -1,10 +1,6 @@
 # setup
 Notes and scripts for setting up a new macOS dev environment *(Follow at your own risk / benefit)*
 
-## Todo: 
-- [ ] Make a bash script that automates some of this.
-- [ ] Sync VScode extensions
-
 ## Steps:
 
 ### 🍻 Install [Homebrew](https://brew.sh/)
