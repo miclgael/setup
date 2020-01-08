@@ -42,6 +42,14 @@ sh -c "$(curl -fsSL https://gist.githubusercontent.com/miclgael/79b65d3420f95a94
 brew cask install sketch nucleo
 ```
 
+### Install Google fonts
+
+w/Thanks to qrpike's [Web Font Load](https://github.com/qrpike/Web-Font-Load)
+
+```bash
+curl https://raw.githubusercontent.com/qrpike/Web-Font-Load/master/install.sh | bash
+```
+
 ### 🛡 Install other misc. software
 
 ```bash
