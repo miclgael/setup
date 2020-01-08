@@ -15,7 +15,12 @@ Notes and scripts for setting up a new macOS dev environment *(Follow at your ow
 - Installs Git!
 - Gives access to the `brew` command.
 
-### 💤 Install [Zsh](https://github.com/ohmyzsh/ohmyzsh)
+### 💤 Install [Z-Shell and Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh)
+
+- Zsh is an alternative terminal shell. OMZsh comes with lots of [themes](https://github.com/ohmyzsh/ohmyzsh#themes).
+- **Zsh should be installed first**, see [installing zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH), or `sudo apt install zsh`
+
+##### Install Oh My Zsh:
 
 `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
 
