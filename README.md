@@ -66,9 +66,13 @@ brew cask install ableton-live-suite loopback
 
 Installs NVM (switch between multiple versions of Node.JS on the same system)
 
-`nvm install <version>`
+```bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.2/install.sh | bash
+```
 
 Installs Node.JS <version> and relative NPM version.
+
+`nvm install node # "node" is an alias for the latest version`
 
 ## 🧼 Clean-up
 
