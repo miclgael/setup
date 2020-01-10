@@ -99,7 +99,9 @@ heroku autocomplete
 
 #### Install Google Cloud SDK
 
-coming soon...
+`brew cask install google-cloud-sdk` (untested)
+
+Will require auth through Google. Must already have an account.
 
 ## 🧼 Clean-up
 
