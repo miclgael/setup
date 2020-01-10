@@ -81,6 +81,26 @@ Installs Node.JS <version> and relative NPM version.
 
 `nvm install node # "node" is an alias for the latest version`
 
+### Install global node packages
+
+#### Install Netlify CLI, since I use it for practically every side-project.
+
+`npm install netlify-cli -g`
+
+#### Install Heroku CLI
+
+```bash
+brew tap heroku/brew && brew install heroku
+
+heroku autocomplete --refresh-cache
+
+heroku autocomplete
+```
+
+#### Install Google Cloud SDK
+
+coming soon...
+
 ## 🧼 Clean-up
 
 - Get [Custom iTerm Applescripts for Alfred](https://github.com/stuartcryan/custom-iterm-applescripts-for-alfred)
