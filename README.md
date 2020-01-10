@@ -11,6 +11,12 @@ Notes and scripts for setting up a new macOS dev environment *(Follow at your ow
 - Installs Git!
 - Gives access to the `brew` command.
 
+### Install Git Large File Storage
+
+I like to immediately install this, otherwise I forget and then things go haywire later when I pull down a repo that needs lfs.
+
+`brew install git-lfs`
+
 ### 💤 Install [Z-Shell and Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh)
 
 - Zsh is an alternative terminal shell. OMZsh comes with lots of [themes](https://github.com/ohmyzsh/ohmyzsh#themes).
