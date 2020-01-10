@@ -96,6 +96,8 @@ heroku autocomplete --refresh-cache
 
 heroku autocomplete
 ```
+Verify with `heroku --version`.
+Login with `heroku login` (press any key to open a browser window for authentication)
 
 #### Install Google Cloud SDK
 
