@@ -11,7 +11,7 @@ Notes and scripts for setting up a new macOS dev environment *(Follow at your ow
 - Installs Git!
 - Gives access to the `brew` command.
 
-### Install Git Large File Storage
+### Install Git Large File Storage <span id="lfs"></span>
 
 I like to immediately install this, otherwise I forget and then things go haywire later when I pull down a repo that needs lfs.
 
@@ -89,7 +89,9 @@ Installs Node.JS <version> and relative NPM version.
 
 `netlify login`
 
-#### Set up Netlify Large Media (requires Git LFS)
+#### Set up [Netlify Large Media](https://docs.netlify.com/large-media/setup/) 
+
+*(requires [Git LFS](#lfs))*
 
 ```bash
 cd project-name
