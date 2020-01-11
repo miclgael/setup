@@ -83,9 +83,21 @@ Installs Node.JS <version> and relative NPM version.
 
 ### Install global node packages
 
-#### Install Netlify CLI, since I use it for practically every side-project.
+#### Install Netlify CLI
 
 `npm install netlify-cli -g`
+
+`netlify login`
+
+#### Set up Netlify Large Media (requires Git LFS)
+
+```bash
+cd project-name
+
+netlify link
+
+netlify lm:setup
+```
 
 #### Install Heroku CLI
 
