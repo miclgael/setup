@@ -52,7 +52,7 @@ curl https://gist.githubusercontent.com/miclgael/79b65d3420f95a943eb9bf94be1399c
 ### 🎨 Install design apps
 
 ```bash
-brew cask install sketch nucleo
+brew cask install sketch nucleo imageoptim
 ```
 
 ### Install Google fonts
