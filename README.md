@@ -5,7 +5,9 @@ Notes and scripts for setting up a new macOS dev environment *(Follow at your ow
 
 ### 🍻 Install [Homebrew](https://brew.sh/)
 
-`/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+```bash
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
 
 - Installs Xcode command line tools
 - Installs Git!
@@ -15,7 +17,9 @@ Notes and scripts for setting up a new macOS dev environment *(Follow at your ow
 
 I like to immediately install this, otherwise I forget and then things go haywire later when I pull down a repo that needs lfs.
 
-`brew install git-lfs`
+```bash
+brew install git-lfs
+```
 
 ### 💤 Install [Z-Shell and Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh)
 
@@ -24,7 +28,9 @@ I like to immediately install this, otherwise I forget and then things go haywir
 
 ##### Install Oh My Zsh:
 
-`sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
+```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
 
 ### 👩‍💻 Install development software
 
@@ -79,15 +85,19 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.2/install.sh | bash
 
 Installs Node.JS <version> and relative NPM version.
 
-`nvm install node # "node" is an alias for the latest version`
+```bash
+nvm install node # "node" is an alias for the latest version
+```
 
 ### Install global node packages
 
 #### Install Netlify CLI
 
-`npm install netlify-cli -g`
+```bash
+npm install netlify-cli -g
 
-`netlify login`
+netlify login
+```
 
 #### Set up [Netlify Large Media](https://docs.netlify.com/large-media/setup/) 
 
@@ -110,7 +120,9 @@ heroku autocomplete --refresh-cache
 
 heroku autocomplete
 ```
+
 Verify with `heroku --version`.
+
 Login with `heroku login` (press any key to open a browser window for authentication)
 
 #### Install Google Cloud SDK
@@ -126,8 +138,6 @@ Will require auth through Google. Must already have an account.
 
 ```bash
 defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}'
-```
 
-```bash
 killall Dock
 ```
