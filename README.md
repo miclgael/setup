@@ -29,7 +29,7 @@ I like to immediately install this, otherwise I forget and then things go haywir
 ### 👩‍💻 Install development software
 
 ```bash
-brew cask install iterm2 vscodium mamp codekit tableplus firefox sourcetree insomnia && \ 
+brew cask install iterm2 vscodium mamp codekit tableplus firefox sourcetree insomnia docker && \ 
 brew cask install homebrew/cask-versions/firefox-developer-edition
 ```
 
