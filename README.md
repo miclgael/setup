@@ -69,10 +69,20 @@ curl https://raw.githubusercontent.com/qrpike/Web-Font-Load/master/install.sh | 
 brew cask install dashlane authy spotify alfred slack notion carbon-copy-cloner
 ```
 
-### 🎹 Install music apps
+### 🎹 Install music apps (optional)
 
 ```bash
 brew cask install ableton-live-suite loopback
+```
+
+### 📼 Install multimedia apps (optional)
+
+```bash
+brew cask install kap handbrake
+
+## ffmpeg CLI tool 
+brew install ffmpeg --force &&
+brew link ffmpeg
 ```
 
 ### 💚 Install [Node Version Manager](https://github.com/nvm-sh/nvm)
