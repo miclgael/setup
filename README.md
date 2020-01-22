@@ -151,3 +151,11 @@ defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-t
 
 killall Dock
 ```
+
+##### Automation scripts
+
+Just for fun, I'm working on some scripts to automate this process. They're currently very broken, don't use them. this is a note for me.
+
+*Make script executable:*
+
+`chmod +x bin/install-webtools.sh`
