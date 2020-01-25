@@ -75,10 +75,12 @@ brew cask install dashlane authy spotify alfred slack notion carbon-copy-cloner
 brew cask install ableton-live-suite loopback
 ```
 
-Manual step: 
+**Manual step:**
 
 - [Install Komplete Audio 6 Drivers](https://www.native-instruments.com/en/support/downloads/drivers-other-files/
-)
+) <sup>*</sup> 
+
+<sup>*</sup> This driver is not necessary with Catalina 10.15.2 and will error. Leaving here for convenience / reminder.
 
 ### 📼 Install multimedia apps (optional)
 
