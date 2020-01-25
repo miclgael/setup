@@ -20,7 +20,7 @@ const shell = require("shelljs");
     executable += ` ${command}`;
   });
 
-  //   console.log(executable);
+  //   console.log(executable); // > brew cask install firefox firefox-developer-edition* *not a thing?
   shell.exec(executable);
 })();
 
