@@ -1,28 +1,28 @@
-const prompts = require("prompts");
-const shell = require("shelljs");
+const prompts = require('prompts')
+const shell = require('shelljs')
 
 // Multi-select.
 // use space bar to make choices.
-(async () => {
+;(async () => {
   const response = await prompts({
-    type: "multiselect",
-    name: "value",
-    message: "Select your web browsers",
+    type: 'multiselect',
+    name: 'value',
+    message: 'Select your web browsers',
     instructions: false,
     choices: [
-      { title: "Firefox", value: "firefox" },
-      { title: "Firefox Developer Edition", value: "firefox-developer-edition" }
+      { title: 'Firefox', value: 'firefox' },
+      { title: 'Firefox Developer Edition', value: 'firefox-developer-edition' }
     ]
-  });
+  })
 
-  let executable = "brew cask install";
+  let executable = 'brew cask install'
   response.value.forEach(command => {
-    executable += ` ${command}`;
-  });
+    executable += ` ${command}`
+  })
 
   //   console.log(executable); // > brew cask install firefox firefox-developer-edition* *not a thing?.
-  shell.exec(executable);
-})();
+  shell.exec(executable)
+})()
 
 // (async () => {
 //   const response = await prompts({
