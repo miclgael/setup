@@ -75,6 +75,11 @@ brew cask install dashlane authy spotify alfred slack notion carbon-copy-cloner
 brew cask install ableton-live-suite loopback
 ```
 
+Manual step: 
+
+- [Install Komplete Audio 6 Drivers](https://www.native-instruments.com/en/support/downloads/drivers-other-files/
+)
+
 ### 📼 Install multimedia apps (optional)
 
 ```bash
