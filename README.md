@@ -151,6 +151,7 @@ Will require auth through Google. Must already have an account.
 ## 🧼 Clean-up
 
 - Get [Custom iTerm Applescripts for Alfred](https://github.com/stuartcryan/custom-iterm-applescripts-for-alfred)
+- Install some optional utils `brew cask install vanilla rocket ` 
 - Add [spaces to the dock](https://css-tricks.com/snippets/html/add-spaces-to-dock-in-os-x/) 
 
 ```bash
@@ -158,6 +159,7 @@ defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-t
 
 killall Dock
 ```
+- Visit the App Store for: [Horo](https://apps.apple.com/au/app/horo-timer-for-menu-bar/id1437226581?mt=12), [Xcode](https://apps.apple.com/au/app/xcode/id497799835?mt=12), [BetterSnapTool](https://apps.apple.com/au/app/bettersnaptool/id417375580?mt=12), [Amphetamine](https://apps.apple.com/au/app/amphetamine/id937984704?mt=12), [Lightweight PDF](https://apps.apple.com/au/app/lightweight-pdf/id1450640351?mt=12), [OneNote](https://apps.apple.com/au/app/microsoft-onenote/id784801555?mt=12), [Bandwidth+](https://apps.apple.com/au/app/bandwidth/id490461369?mt=12) and [The Unarchiver](https://apps.apple.com/au/app/the-unarchiver/id425424353?mt=12)
 
 ##### Automation scripts
 
