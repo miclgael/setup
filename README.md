@@ -1,5 +1,6 @@
 # setup
-Notes and scripts for setting up a new macOS dev environment *(Follow at your own risk / benefit)*
+
+Notes and scripts for setting up a new macOS dev environment _(Follow at your own risk / benefit)_
 
 ## Steps:
 
@@ -35,7 +36,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 ### 👩‍💻 Install development software
 
 ```bash
-brew cask install iterm2 vscodium mamp codekit tableplus firefox sourcetree insomnia docker && \ 
+brew cask install iterm2 vscodium mamp codekit tableplus firefox sourcetree insomnia docker && \
 brew cask install homebrew/cask-versions/firefox-developer-edition
 ```
 
@@ -77,17 +78,16 @@ brew cask install ableton-live-suite loopback
 
 **Manual step:**
 
-- [Install Komplete Audio 6 Drivers](https://www.native-instruments.com/en/support/downloads/drivers-other-files/
-) <sup>*</sup> 
+- [Install Komplete Audio 6 Drivers](https://www.native-instruments.com/en/support/downloads/drivers-other-files/) <sup>\*</sup>
 
-<sup>*</sup>[This driver is not necessary with Catalina 10.15.2 and will error](https://support.native-instruments.com/hc/en-us/community/posts/360008523278/comments/360001197857). Leaving here for convenience / reminder.
+<sup>\*</sup>[This driver is not necessary with Catalina 10.15.2 and will error](https://support.native-instruments.com/hc/en-us/community/posts/360008523278/comments/360001197857). Leaving here for convenience / reminder.
 
 ### 📼 Install multimedia apps (optional)
 
 ```bash
 brew cask install kap handbrake
 
-## ffmpeg CLI tool 
+## ffmpeg CLI tool
 brew install ffmpeg --force &&
 brew link ffmpeg
 ```
@@ -116,9 +116,9 @@ npm install netlify-cli -g
 netlify login
 ```
 
-#### Set up [Netlify Large Media](https://docs.netlify.com/large-media/setup/) 
+#### Set up [Netlify Large Media](https://docs.netlify.com/large-media/setup/)
 
-*(requires [Git LFS](#install-git-large-file-storage))*
+_(requires [Git LFS](#install-git-large-file-storage))_
 
 ```bash
 cd project-name
@@ -151,20 +151,31 @@ Will require auth through Google. Must already have an account.
 ## 🧼 Clean-up
 
 - Get [Custom iTerm Applescripts for Alfred](https://github.com/stuartcryan/custom-iterm-applescripts-for-alfred)
-- Install some optional utils `brew cask install vanilla rocket ` 
-- Add [spaces to the dock](https://css-tricks.com/snippets/html/add-spaces-to-dock-in-os-x/) 
+- Install some optional utils `brew cask install vanilla rocket`
+
+**Add [spaces to the dock](https://css-tricks.com/snippets/html/add-spaces-to-dock-in-os-x/)**
 
 ```bash
 defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}'
 
 killall Dock
 ```
-- Visit the App Store for: [Horo](https://apps.apple.com/au/app/horo-timer-for-menu-bar/id1437226581?mt=12), [Xcode](https://apps.apple.com/au/app/xcode/id497799835?mt=12), [BetterSnapTool](https://apps.apple.com/au/app/bettersnaptool/id417375580?mt=12), [Amphetamine](https://apps.apple.com/au/app/amphetamine/id937984704?mt=12), [Lightweight PDF](https://apps.apple.com/au/app/lightweight-pdf/id1450640351?mt=12), [OneNote](https://apps.apple.com/au/app/microsoft-onenote/id784801555?mt=12), [Bandwidth+](https://apps.apple.com/au/app/bandwidth/id490461369?mt=12) and [The Unarchiver](https://apps.apple.com/au/app/the-unarchiver/id425424353?mt=12)
+
+**Visit the App Store for**
+
+- [Amphetamine](https://apps.apple.com/au/app/amphetamine/id937984704?mt=12)
+- [Bandwidth+](https://apps.apple.com/au/app/bandwidth/id490461369?mt=12)
+- [BetterSnapTool](https://apps.apple.com/au/app/bettersnaptool/id417375580?mt=12)
+- [Horo](https://apps.apple.com/au/app/horo-timer-for-menu-bar/id1437226581?mt=12)
+- [Lightweight PDF](https://apps.apple.com/au/app/lightweight-pdf/id1450640351?mt=12)
+- [OneNote](https://apps.apple.com/au/app/microsoft-onenote/id784801555?mt=12)
+- [The Unarchiver](https://apps.apple.com/au/app/the-unarchiver/id425424353?mt=12)
+- [Xcode](https://apps.apple.com/au/app/xcode/id497799835?mt=12)
 
 ##### Automation scripts
 
-Just for fun, I'm working on some scripts to automate this process. They're currently very broken, don't use them. this is a note for me.
+Just for fun, I'm working on some scripts to automate this process. They're currently very broken, don't use them. This is a note for me.
 
-*Make script executable:*
+_Make script executable:_
 
 `chmod +x bin/install-webtools.sh`
