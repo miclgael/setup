@@ -116,6 +116,12 @@ npm install netlify-cli -g
 netlify login
 ```
 
+### ✏️ Install Hugo for blogging
+
+```bash
+brew install hugo
+```
+
 #### Set up [Netlify Large Media](https://docs.netlify.com/large-media/setup/)
 
 _(requires [Git LFS](#install-git-large-file-storage))_
