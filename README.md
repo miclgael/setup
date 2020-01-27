@@ -178,10 +178,5 @@ killall Dock
 - [The Unarchiver](https://apps.apple.com/au/app/the-unarchiver/id425424353?mt=12)
 - [Xcode](https://apps.apple.com/au/app/xcode/id497799835?mt=12)
 
-##### Automation scripts
 
-Just for fun, I'm working on some scripts to automate this process. They're currently very broken, don't use them. This is a note for me.
 
-_Make script executable:_
-
-`chmod +x bin/install-webtools.sh`
