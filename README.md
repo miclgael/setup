@@ -40,6 +40,12 @@ brew cask install iterm2 vscodium mamp codekit tableplus firefox sourcetree inso
 brew cask install homebrew/cask-versions/firefox-developer-edition
 ```
 
+**Micro editor (nicer than Nano, less hectic than vim)**
+
+```bash
+brew install micro
+```
+
 ### 💻 Install preferred VS Code extensions
 
 I keep a [public gist](https://gist.github.com/miclgael/79b65d3420f95a943eb9bf94be1399c5) with a list of my extensions, ready to paste into a terminal window. (Requires access to the `code` command)
@@ -177,6 +183,3 @@ killall Dock
 - [OneNote](https://apps.apple.com/au/app/microsoft-onenote/id784801555?mt=12)
 - [The Unarchiver](https://apps.apple.com/au/app/the-unarchiver/id425424353?mt=12)
 - [Xcode](https://apps.apple.com/au/app/xcode/id497799835?mt=12)
-
-
-
