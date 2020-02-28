@@ -165,7 +165,8 @@ Will require auth through Google. Must already have an account.
 - Get [Custom iTerm Applescripts for Alfred](https://github.com/stuartcryan/custom-iterm-applescripts-for-alfred)
 - Install some optional utils `brew cask install vanilla rocket`
 - Grab [ShareMouse](https://www.sharemouse.com/new/) to share between Laptop and Desktop setups
-
+- Grab [OBS Camera](https://obs.camera/docs/getting-started/ios-camera-plugin-usb/) for web-camming
+- Grab [DaVinci Resolve 16](https://www.blackmagicdesign.com/products/davinciresolve/) for video editing
 **Add [spaces to the dock](https://css-tricks.com/snippets/html/add-spaces-to-dock-in-os-x/)**
 
 ```bash
