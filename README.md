@@ -53,7 +53,7 @@ I keep a [public gist](https://gist.github.com/miclgael/79b65d3420f95a943eb9bf94
 Run it as its own script with the following command:
 
 ```bash
-curl https://gist.githubusercontent.com/miclgael/79b65d3420f95a943eb9bf94be1399c5/raw/77bf1c14536a0e9d8857126be57a0711f8fb339f/install-extensions.sh | bash
+curl https://gist.githubusercontent.com/miclgael/79b65d3420f95a943eb9bf94be1399c5/raw/aa7e2b00f8be7ec6c7c374c27d43d6729eaddca8/install-extensions.sh | bash
 ```
 
 ### 🎨 Install design apps
