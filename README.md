@@ -80,7 +80,7 @@ brew cask install ableton-live-suite loopback
 
 **Manual step:**
 
-- [Install Komplete Audio 6 Drivers](https://www.native-instruments.com/en/support/downloads/drivers-other-files/) <sup>\*</sup>
+[Install Komplete Audio 6 Drivers](https://www.native-instruments.com/en/support/downloads/drivers-other-files/) <sup>\*</sup>
 
 <sup>\*</sup>[This driver is not necessary with Catalina 10.15.2 and will error](https://support.native-instruments.com/hc/en-us/community/posts/360008523278/comments/360001197857). Leaving here for convenience / reminder.
 
