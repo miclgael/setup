@@ -48,7 +48,7 @@ brew install micro
 
 ### 💻 Install preferred VS Code extensions
 
-Install the [Settings Sync extension](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync), tjem connect it to the appropriate [Github Gist](https://gist.github.com/miclgael/79b65d3420f95a943eb9bf94be1399c5).
+Install the [Settings Sync extension](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync), then connect it to the appropriate [Github Gist](https://gist.github.com/miclgael/79b65d3420f95a943eb9bf94be1399c5).
 
 (I'm opting for this extension over the new built-in sync settings for privacy reasons)
 
