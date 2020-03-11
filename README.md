@@ -48,13 +48,7 @@ brew install micro
 
 ### 💻 Install preferred VS Code extensions
 
-I keep a [public gist](https://gist.github.com/miclgael/79b65d3420f95a943eb9bf94be1399c5) with a list of my extensions, ready to paste into a terminal window. (Requires access to the `code` command)
-
-Run it as its own script with the following command:
-
-```bash
-curl https://gist.githubusercontent.com/miclgael/79b65d3420f95a943eb9bf94be1399c5/raw/aa7e2b00f8be7ec6c7c374c27d43d6729eaddca8/install-extensions.sh | bash
-```
+Install sync extension <link tbc>
 
 ### 🎨 Install design apps
 
