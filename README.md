@@ -2,6 +2,8 @@
 
 Notes and scripts for setting up a new macOS dev environment _(Follow at your own risk / benefit)_
 
+> 💡 I also have guides for [Linux](https://github.com/miclgael/setup-linux) and [Windows](https://github.com/miclgael/setup-win)!
+
 ## Steps:
 
 ### 🍻 Install [Homebrew](https://brew.sh/)
