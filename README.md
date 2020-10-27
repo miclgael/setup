@@ -38,7 +38,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 ### 👩‍💻 Install development software
 
 ```bash
-brew cask install iterm2 vscodium mamp codekit tableplus firefox sourcetree insomnia docker && \
+brew cask install iterm2 vscodium mamp codekit tableplus sourcetree insomnia docker && \
 brew cask install homebrew/cask-versions/firefox-developer-edition
 ```
 
@@ -71,7 +71,7 @@ curl https://raw.githubusercontent.com/qrpike/Web-Font-Load/master/install.sh | 
 ### 🛡 Install other misc. software
 
 ```bash
-brew cask install dashlane authy spotify alfred slack notion carbon-copy-cloner
+brew cask install 1password authy nordvpn alfred slack notion carbon-copy-cloner
 ```
 
 ### 🎹 Install music apps (optional)
@@ -162,7 +162,6 @@ Will require auth through Google. Must already have an account.
 
 - Get [Custom iTerm Applescripts for Alfred](https://github.com/stuartcryan/custom-iterm-applescripts-for-alfred)
 - Install some optional utils `brew cask install vanilla rocket`
-- Grab [ShareMouse](https://www.sharemouse.com/new/) to share between Laptop and Desktop setups
 - Grab [OBS Camera](https://obs.camera/docs/getting-started/ios-camera-plugin-usb/) for web-camming
 - Grab [DaVinci Resolve 16](https://www.blackmagicdesign.com/products/davinciresolve/) for video editing
 
@@ -179,8 +178,6 @@ killall Dock
 - [Amphetamine](https://apps.apple.com/au/app/amphetamine/id937984704?mt=12)
 - [Bandwidth+](https://apps.apple.com/au/app/bandwidth/id490461369?mt=12)
 - [BetterSnapTool](https://apps.apple.com/au/app/bettersnaptool/id417375580?mt=12)
-- [Horo](https://apps.apple.com/au/app/horo-timer-for-menu-bar/id1437226581?mt=12)
 - [Lightweight PDF](https://apps.apple.com/au/app/lightweight-pdf/id1450640351?mt=12)
-- [OneNote](https://apps.apple.com/au/app/microsoft-onenote/id784801555?mt=12)
 - [The Unarchiver](https://apps.apple.com/au/app/the-unarchiver/id425424353?mt=12)
 - [Xcode](https://apps.apple.com/au/app/xcode/id497799835?mt=12)
