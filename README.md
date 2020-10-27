@@ -158,6 +158,10 @@ Login with `heroku login` (press any key to open a browser window for authentica
 
 Will require auth through Google. Must already have an account.
 
+#### Install Speedtest CLI
+
+`brew install speedtest-cli`
+
 ## 🧼 Clean-up
 
 - Get [Custom iTerm Applescripts for Alfred](https://github.com/stuartcryan/custom-iterm-applescripts-for-alfred)
