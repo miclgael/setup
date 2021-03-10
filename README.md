@@ -38,8 +38,8 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 ### 👩‍💻 Install development software
 
 ```bash
-brew cask install iterm2 vscodium mamp codekit tableplus sourcetree insomnia docker && \
-brew cask install homebrew/cask-versions/firefox-developer-edition
+brew install --cask iterm2 vscodium mamp codekit tableplus sourcetree insomnia docker && \
+brew install --cask homebrew/cask-versions/firefox-developer-edition
 ```
 
 **Micro editor (nicer than Nano, less hectic than vim)**
@@ -57,7 +57,7 @@ Install the [Settings Sync extension](https://marketplace.visualstudio.com/items
 ### 🎨 Install design apps
 
 ```bash
-brew cask install sketch nucleo imageoptim
+brew install --cask sketch nucleo imageoptim
 ```
 
 ### Install Google fonts
@@ -71,13 +71,13 @@ curl https://raw.githubusercontent.com/qrpike/Web-Font-Load/master/install.sh | 
 ### 🛡 Install other misc. software
 
 ```bash
-brew cask install 1password authy nordvpn alfred slack notion carbon-copy-cloner
+brew install --cask 1password authy nordvpn alfred slack notion carbon-copy-cloner dropbox
 ```
 
 ### 🎹 Install music apps (optional)
 
 ```bash
-brew cask install ableton-live-suite loopback
+brew install --cask ableton-live-suite loopback
 ```
 
 **Manual step:**
@@ -154,7 +154,7 @@ Login with `heroku login` (press any key to open a browser window for authentica
 
 #### Install Google Cloud SDK
 
-`brew cask install google-cloud-sdk` (untested)
+`brew install google-cloud-sdk` (untested)
 
 Will require auth through Google. Must already have an account.
 
@@ -177,11 +177,20 @@ defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-t
 killall Dock
 ```
 
-**Visit the App Store for**
+## 🆕 BetterTouchTool <- _you need this_
+
+Install BetterTouchTool. This is not just useful for touchbar macbooks. This has screen snapping, keyboard shortcuts ( H Y P E R K E Y ), etc. More than just touchbar stuff.
+
+```bash
+brew install --cask bettertouchtool
+```
+
+It also integrates all the same stuff as [BetterSnapTool](https://apps.apple.com/au/app/bettersnaptool/id417375580?mt=12)!!
+
+**Visit the macOS App Store for**
 
 - [Amphetamine](https://apps.apple.com/au/app/amphetamine/id937984704?mt=12)
 - [Bandwidth+](https://apps.apple.com/au/app/bandwidth/id490461369?mt=12)
-- [BetterSnapTool](https://apps.apple.com/au/app/bettersnaptool/id417375580?mt=12)
 - [Lightweight PDF](https://apps.apple.com/au/app/lightweight-pdf/id1450640351?mt=12)
 - [The Unarchiver](https://apps.apple.com/au/app/the-unarchiver/id425424353?mt=12)
 - [Xcode](https://apps.apple.com/au/app/xcode/id497799835?mt=12)
