@@ -39,7 +39,8 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 ```bash
 brew install --cask iterm2 vscodium mamp codekit tableplus sourcetree insomnia docker && \
-brew install --cask homebrew/cask-versions/firefox-developer-edition
+brew install --cask homebrew/cask-versions/firefox-developer-edition && \
+brew install composer
 ```
 
 **Micro editor (nicer than Nano, less hectic than vim)**
@@ -89,7 +90,7 @@ brew install --cask ableton-live-suite loopback
 ### 📼 Install multimedia apps (optional)
 
 ```bash
-brew cask install kap handbrake
+brew install --cask kap handbrake
 
 ## ffmpeg CLI tool
 brew install ffmpeg --force &&
@@ -197,7 +198,7 @@ Will require auth through Google. Must already have an account.
 ## 🧼 Clean-up
 
 - Get [Custom iTerm Applescripts for Alfred](https://github.com/stuartcryan/custom-iterm-applescripts-for-alfred)
-- Install some optional utils `brew cask install vanilla rocket`
+- Install some optional utils `brew install --cask vanilla rocket`
 - Grab [OBS Camera](https://obs.camera/docs/getting-started/ios-camera-plugin-usb/) for web-camming
 - Grab [DaVinci Resolve 16](https://www.blackmagicdesign.com/products/davinciresolve/) for video editing
 
