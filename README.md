@@ -24,12 +24,12 @@ I like to immediately install this, otherwise I forget and then things go haywir
 brew install git-lfs
 ```
 
-### 💤 Install [Z-Shell and Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh)
+### 💤 Install Z-Shell
 
-- Zsh is an alternative terminal shell. OMZsh comes with lots of [themes](https://github.com/ohmyzsh/ohmyzsh#themes).
 - **Zsh should be installed first**, see [installing zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH), or `brew install zsh`
+- Zsh is an alternative terminal shell. OMZsh comes with lots of [themes](https://github.com/ohmyzsh/ohmyzsh#themes).
 
-##### Install Oh My Zsh:
+##### Install [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh)
 
 ```bash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
@@ -38,12 +38,12 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 ### 👩‍💻 Install development software
 
 ```bash
-brew install --cask iterm2 vscodium mamp codekit tableplus sourcetree insomnia docker && \
+brew install --cask iterm2 vscode mamp codekit tableplus sourcetree insomnia docker && \
 brew install --cask homebrew/cask-versions/firefox-developer-edition && \
 brew install composer
 ```
 
-**Micro editor (nicer than Nano, less hectic than vim)**
+**Micro editor (nicer than Nano, easier than Vim)**
 
 ```bash
 brew install micro
@@ -51,9 +51,11 @@ brew install micro
 
 ### 💻 Install preferred VS Code extensions
 
-Install the [Settings Sync extension](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync), then connect it to the appropriate [Github Gist](https://gist.github.com/miclgael/79b65d3420f95a943eb9bf94be1399c5).
+A few ways to handle this, depending on your flavour of VS Code / VS Codium
 
-(I'm opting for this extension over the new built-in sync settings for privacy reasons)
+- Using [`code --install-extension <extension-name>`](https://gist.github.com/miclgael/fec1768d31c92a580a3b0a28688a29e9)
+- Using the [Settings Sync extension](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync), when connected to an appropriate [Github Gist](https://gist.github.com/miclgael/79b65d3420f95a943eb9bf94be1399c5). 
+- Or just use the [built-in sync functions](https://code.visualstudio.com/docs/editor/settings-sync) inside vscode, if you don't care about telemetry. :)
 
 ### 🎨 Install design apps
 
@@ -210,20 +212,17 @@ defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-t
 killall Dock
 ```
 
-## 🆕 BetterTouchTool <- _you need this_
+## BetterTouchTool
 
-Install BetterTouchTool. This is not just useful for touchbar macbooks. This has screen snapping, keyboard shortcuts ( H Y P E R K E Y ), etc. More than just touchbar stuff.
+Optionally, install _BetterTouchTool_. This is a paid app (free license if you already own _BetterSnapTool_). It's not only useful for touchbar MacBooks - this is a firm requirement for every Mac for me now.
 
 ```bash
 brew install --cask bettertouchtool
 ```
 
-It also integrates all the same stuff as [BetterSnapTool](https://apps.apple.com/au/app/bettersnaptool/id417375580?mt=12)!!
-
 **Visit the macOS App Store for**
 
 - [Amphetamine](https://apps.apple.com/au/app/amphetamine/id937984704?mt=12)
-- [Bandwidth+](https://apps.apple.com/au/app/bandwidth/id490461369?mt=12)
 - [Lightweight PDF](https://apps.apple.com/au/app/lightweight-pdf/id1450640351?mt=12)
 - [The Unarchiver](https://apps.apple.com/au/app/the-unarchiver/id425424353?mt=12)
 - [Xcode](https://apps.apple.com/au/app/xcode/id497799835?mt=12)
