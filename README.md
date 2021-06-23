@@ -69,7 +69,7 @@ brew install --cask sketch nucleo imageoptim
 brew install --cask 1password authy nordvpn alfred slack notion carbon-copy-cloner dropbox
 ```
 
-### 🎹 Install music apps (optional)
+### 🎹 Install music / video apps (optional)
 
 ```bash
 brew install --cask ableton-live-suite loopback
@@ -84,7 +84,7 @@ brew install --cask ableton-live-suite loopback
 ### 📼 Install multimedia apps (optional)
 
 ```bash
-brew install --cask kap handbrake
+brew install --cask kap handbrake obs
 ```
 
 ### 💚 Install [Node Version Manager](https://github.com/nvm-sh/nvm)
