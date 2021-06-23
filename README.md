@@ -38,7 +38,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 ### 👩‍💻 Install development software
 
 ```bash
-brew install --cask iterm2 vscode mamp codekit tableplus sourcetree insomnia docker && \
+brew install --cask iterm2 visual-studio-code mamp codekit tableplus sourcetree insomnia docker && \
 brew install --cask homebrew/cask-versions/firefox-developer-edition && \
 brew install composer
 ```
@@ -61,14 +61,6 @@ A few ways to handle this, depending on your flavour of VS Code / VS Codium
 
 ```bash
 brew install --cask sketch nucleo imageoptim
-```
-
-### Install Google fonts
-
-w/Thanks to qrpike's [Web Font Load](https://github.com/qrpike/Web-Font-Load)
-
-```bash
-curl https://raw.githubusercontent.com/qrpike/Web-Font-Load/master/install.sh | bash
 ```
 
 ### 🛡 Install other misc. software
