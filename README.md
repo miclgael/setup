@@ -43,6 +43,8 @@ brew install --cask homebrew/cask-versions/firefox-developer-edition && \
 brew install composer
 ```
 
+- [Fix iTerm2 Arrow Keys](https://coderwall.com/p/gfmwlw/fixing-arrow-keys-in-iterm-2)
+
 **Micro editor (nicer than Nano, easier than Vim)**
 
 ```bash
