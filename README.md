@@ -202,3 +202,8 @@ brew install --cask bettertouchtool
 - [Lightweight PDF](https://apps.apple.com/au/app/lightweight-pdf/id1450640351?mt=12)
 - [The Unarchiver](https://apps.apple.com/au/app/the-unarchiver/id425424353?mt=12)
 - [Xcode](https://apps.apple.com/au/app/xcode/id497799835?mt=12)
+- [Spark - Email App](#todo)
+- [Things 3](#todo)
+- [Kindle](#todo)
+- [Notability](#todo)
+- [Tomato 2](#tomato)
