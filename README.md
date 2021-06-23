@@ -85,10 +85,6 @@ brew install --cask ableton-live-suite loopback
 
 ```bash
 brew install --cask kap handbrake
-
-## ffmpeg CLI tool
-brew install ffmpeg --force &&
-brew link ffmpeg
 ```
 
 ### 💚 Install [Node Version Manager](https://github.com/nvm-sh/nvm)
@@ -147,12 +143,6 @@ npm install netlify-cli -g
 netlify login
 ```
 
-### ✏️ Install Hugo for blogging
-
-```bash
-brew install hugo
-```
-
 #### Set up [Netlify Large Media](https://docs.netlify.com/large-media/setup/)
 
 _(requires [Git LFS](#install-git-large-file-storage))_
@@ -178,12 +168,6 @@ heroku autocomplete
 Verify with `heroku --version`.
 
 Login with `heroku login` (press any key to open a browser window for authentication)
-
-#### Install Google Cloud SDK
-
-`brew install google-cloud-sdk` (untested)
-
-Will require auth through Google. Must already have an account.
 
 #### Install Speedtest CLI
 
