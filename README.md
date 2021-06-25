@@ -198,20 +198,27 @@ killall Dock
 
 ## BetterTouchTool
 
-Optionally, install _BetterTouchTool_. This is a paid app (free license if you already own _BetterSnapTool_). It's not only useful for touchbar MacBooks - this is a firm requirement for every Mac for me now.
-
+Install _BetterTouchTool_. 
+  
 ```bash
 brew install --cask bettertouchtool
 ```
 
+This is a paid app but has a suite of awesome tools available (additional to the touch bar customisation), such as global keyboard shortcuts (e.g. "Hyper Key"), track-pad gesture mods, triggers and automations, MIDI triggers, etc.
+
+![Screenshot of Better Snap Tool options](https://user-images.githubusercontent.com/4301358/123492681-8a911a80-d65d-11eb-8f8f-0215fc02c5af.png)
+  
+If you own BetterSnapTool (App Store) - download it, use it to authorize BTT, then uninstall BST. 
+
+<small>I promise, I'm not sponsored or anything I just love this app!</small>
+  
 **Visit the macOS App Store for**
 
-- [Amphetamine](https://apps.apple.com/au/app/amphetamine/id937984704?mt=12)
-- [Lightweight PDF](https://apps.apple.com/au/app/lightweight-pdf/id1450640351?mt=12)
-- [The Unarchiver](https://apps.apple.com/au/app/the-unarchiver/id425424353?mt=12)
-- [Xcode](https://apps.apple.com/au/app/xcode/id497799835?mt=12)
-- [Spark - Email App](#todo)
-- [Things 3](#todo)
-- [Kindle](#todo)
-- [Notability](#todo)
-- [Tomato 2](#tomato)
+- [Amphetamine](https://apps.apple.com/au/app/amphetamine/id937984704?mt=12) (free)
+- [Lightweight PDF](https://apps.apple.com/au/app/lightweight-pdf/id1450640351?mt=12) (free)
+- [The Unarchiver](https://apps.apple.com/au/app/the-unarchiver/id425424353?mt=12) (free)
+- [Xcode](https://apps.apple.com/au/app/xcode/id497799835?mt=12) (free)
+- [Spark - Email App](https://apps.apple.com/au/app/spark-email-app-by-readdle/id1176895641?mt=12) (free)
+- [Things 3](https://apps.apple.com/au/app/things-3/id904280696?mt=12) (paid)
+- [Notability](https://apps.apple.com/au/app/notability/id360593530) (paid)
+- [Tomato 2](https://apps.apple.com/au/app/tomato-2-pomodoro-timer/id1494210770?mt=12) (free/paid)
