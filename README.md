@@ -1,4 +1,4 @@
-# setup
+#  setup
 
 Notes and scripts for setting up a new macOS dev environment _(Follow at your own risk / benefit)_
 
@@ -44,6 +44,7 @@ brew install composer
 ```
 
 - [Fix iTerm2 Arrow Keys](https://coderwall.com/p/gfmwlw/fixing-arrow-keys-in-iterm-2)
+- [Change default +click browser](https://stackoverflow.com/a/46568996)
 
 **Micro editor (nicer than Nano, easier than Vim)**
 
