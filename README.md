@@ -51,7 +51,7 @@ brew install composer
 - [Fix iTerm2 Arrow Keys](https://coderwall.com/p/gfmwlw/fixing-arrow-keys-in-iterm-2)
 - [Change default +click browser](https://stackoverflow.com/a/46568996)
 
-**Micro editor (nicer than Nano, easier than Vim)**
+**[Micro editor](https://micro-editor.github.io/) (nicer than Nano, easier than Vim)**
 
 ```bash
 brew install micro
@@ -204,11 +204,11 @@ Install _BetterTouchTool_.
 brew install --cask bettertouchtool
 ```
 
-This is a paid app but has a suite of awesome tools available (additional to the touch bar customisation), such as global keyboard shortcuts (e.g. "Hyper Key"), track-pad gesture mods, triggers and automations, MIDI triggers, etc.
+This is a paid app but has a suite of awesome tools available (additional to the touch bar customisation), such as window snapping, global keyboard shortcuts (e.g. "Hyper Key"), track-pad gesture mods, triggers and automations, MIDI triggers, etc.
 
 ![Screenshot of Better Snap Tool options](https://user-images.githubusercontent.com/4301358/123492681-8a911a80-d65d-11eb-8f8f-0215fc02c5af.png)
   
-If you own BetterSnapTool (App Store) - download it, use it to authorize BTT, then uninstall BST. 
+If you own [BetterSnapTool](https://apps.apple.com/au/app/bettersnaptool/id417375580?mt=12) (App Store) - download it, use it to authorize BTT, then uninstall BST. 
 
 <small>I promise, I'm not sponsored or anything I just love this app!</small>
   
