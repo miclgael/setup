@@ -24,16 +24,21 @@ I like to immediately install this, otherwise I forget and then things go haywir
 brew install git-lfs
 ```
 
-### 💤 Install Z-Shell
+### 💤 Install zsh and [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh)
 
-- **Zsh should be installed first**, see [installing zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH), or `brew install zsh`
-- Zsh is an alternative terminal shell. OMZsh comes with lots of [themes](https://github.com/ohmyzsh/ohmyzsh#themes).
+**Zsh should be installed first!** See [installing zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH) or use brew:
 
-##### Install [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh)
+```bash
+brew install zsh
+```
+
+(follow the instructions)
 
 ```bash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
+
+(follow the instructions, again)
 
 ### 👩‍💻 Install development software
 
