@@ -75,7 +75,7 @@ brew install --cask 1password authy nordvpn alfred slack notion carbon-copy-clon
 ### 🎹 Install music / video apps (optional)
 
 ```bash
-brew install --cask ableton-live-suite loopback
+brew install --cask ableton-live-suite loopback spotify
 ```
 
 **Manual step:**
