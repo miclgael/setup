@@ -82,13 +82,6 @@ brew install --cask 1password authy nordvpn alfred slack notion carbon-copy-clon
 ```bash
 brew install --cask ableton-live-suite loopback spotify
 ```
-
-**Manual step:**
-
-[Install Komplete Audio 6 Drivers](https://www.native-instruments.com/en/support/downloads/drivers-other-files/) <sup>\*</sup>
-
-<sup>\*</sup>[This driver is not necessary with Catalina 10.15.2 and will error](https://support.native-instruments.com/hc/en-us/community/posts/360008523278/comments/360001197857). Leaving here for convenience / reminder.
-
 ### 📼 Install multimedia apps (optional)
 
 ```bash
@@ -187,6 +180,7 @@ Login with `heroku login` (press any key to open a browser window for authentica
 - Install some optional utils `brew install --cask vanilla rocket`
 - Grab [OBS Camera](https://obs.camera/docs/getting-started/ios-camera-plugin-usb/) for web-camming
 - Grab [DaVinci Resolve 16](https://www.blackmagicdesign.com/products/davinciresolve/) for video editing
+- Sign in to [SoundToys](https://www.soundtoys.com) to download plug-ins
 
 **Add [spaces to the dock](https://css-tricks.com/snippets/html/add-spaces-to-dock-in-os-x/):**
 
@@ -196,6 +190,7 @@ defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-t
 killall Dock
 ```
 
+  
 ## BetterTouchTool
 
 Install _BetterTouchTool_. 
