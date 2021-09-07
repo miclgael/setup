@@ -217,3 +217,8 @@ If you own [BetterSnapTool](https://apps.apple.com/au/app/bettersnaptool/id41737
 - [Things 3](https://apps.apple.com/au/app/things-3/id904280696?mt=12) (paid)
 - [Notability](https://apps.apple.com/au/app/notability/id360593530) (paid)
 - [Tomato 2](https://apps.apple.com/au/app/tomato-2-pomodoro-timer/id1494210770?mt=12) (free/paid)
+  
+**Begrudgingly grab Elgato CC**
+
+- [Direct Download v1.1.4](https://edge.elgato.com/egc/macos/eccm/1.1.4/Control_Center_1.1.4.10368.zip)
+- [Downloads page](https://www.elgato.com/en/downloads)
