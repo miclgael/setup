@@ -85,7 +85,7 @@ brew install --cask ableton-live-suite loopback spotify
 ### 📼 Install multimedia apps (optional)
 
 ```bash
-brew install --cask kap handbrake obs
+brew install --cask kap handbrake obs elgato-control-center
 ```
 
 ### 💚 Install [Node Version Manager](https://github.com/nvm-sh/nvm)
