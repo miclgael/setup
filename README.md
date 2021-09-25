@@ -213,7 +213,6 @@ If you own [BetterSnapTool](https://apps.apple.com/au/app/bettersnaptool/id41737
 - [Lightweight PDF](https://apps.apple.com/au/app/lightweight-pdf/id1450640351?mt=12) (free)
 - [The Unarchiver](https://apps.apple.com/au/app/the-unarchiver/id425424353?mt=12) (free)
 - [Xcode](https://apps.apple.com/au/app/xcode/id497799835?mt=12) (free)
-- [Spark - Email App](https://apps.apple.com/au/app/spark-email-app-by-readdle/id1176895641?mt=12) (free)
 - [Things 3](https://apps.apple.com/au/app/things-3/id904280696?mt=12) (paid)
 - [Notability](https://apps.apple.com/au/app/notability/id360593530) (paid)
 - [Tomato 2](https://apps.apple.com/au/app/tomato-2-pomodoro-timer/id1494210770?mt=12) (free/paid)
