@@ -177,6 +177,10 @@ Login with `heroku login` (press any key to open a browser window for authentica
 
 `brew install speedtest-cli`
 
+  
+  
+  
+  
 ## 🧼 Clean-up
 
 - Get [Custom iTerm Applescripts for Alfred](https://github.com/stuartcryan/custom-iterm-applescripts-for-alfred)
@@ -211,15 +215,17 @@ If you own [BetterSnapTool](https://apps.apple.com/au/app/bettersnaptool/id41737
 <small>I promise, I'm not sponsored or anything I just love this app!</small>
   
 **Visit the macOS App Store for**
-
-- [Amphetamine](https://apps.apple.com/au/app/amphetamine/id937984704?mt=12) (free)
-- [Lightweight PDF](https://apps.apple.com/au/app/lightweight-pdf/id1450640351?mt=12) (free)
-- [The Unarchiver](https://apps.apple.com/au/app/the-unarchiver/id425424353?mt=12) (free)
-- [Xcode](https://apps.apple.com/au/app/xcode/id497799835?mt=12) (free)
-- [Things 3](https://apps.apple.com/au/app/things-3/id904280696?mt=12) (paid)
-- [Notability](https://apps.apple.com/au/app/notability/id360593530) (paid)
-- [Tomato 2](https://apps.apple.com/au/app/tomato-2-pomodoro-timer/id1494210770?mt=12) (free/paid)
-- [Noizio Lite](https://apps.apple.com/au/app/noizio-lite-nature-sounds/id1481029536?mt=12) (free/paid)
+  
+| App Store Link                                                                            | price     |                              Note |
+| :---------------------------------------------------------------------------------------- | --------- | --------------------------------: |
+| [Amphetamine](https://apps.apple.com/au/app/amphetamine/id937984704?mt=12)                | free      |          Prevent OS from sleeping |
+| [Lightweight PDF](https://apps.apple.com/au/app/lightweight-pdf/id1450640351?mt=12)       | free      |           Minify PDFs for sharing |
+| [The Unarchiver](https://apps.apple.com/au/app/the-unarchiver/id425424353?mt=12)          | free      |     Slightly better archiving GUI |
+| [Xcode](https://apps.apple.com/au/app/xcode/id497799835?mt=12)                            | free      | Purely for simulating iOS devices |
+| [Things 3](https://apps.apple.com/au/app/things-3/id904280696?mt=12)                      | paid      |             The sexiest to-do app |
+| [Tomato 2](https://apps.apple.com/au/app/tomato-2-pomodoro-timer/id1494210770?mt=12)      | free/paid |               Tidy Pomodoro alarm |
+| [Notability](https://apps.apple.com/au/app/notability/id360593530)                        | paid      |       to sync with iPad notes app |
+| [Noizio Lite](https://apps.apple.com/au/app/noizio-lite-nature-sounds/id1481029536?mt=12) | free/paid |             white noise generator |
 
 **Other dumb stuff**
 
