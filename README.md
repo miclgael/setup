@@ -63,7 +63,7 @@ A few ways to handle this, depending on your flavour of VS Code / VS Codium
 
 - Using [`code --install-extension <extension-name>`](https://gist.github.com/miclgael/fec1768d31c92a580a3b0a28688a29e9)
 - Using the [Settings Sync extension](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync), when connected to an appropriate [Github Gist](https://gist.github.com/miclgael/79b65d3420f95a943eb9bf94be1399c5). 
-- Or just use the [built-in sync functions](https://code.visualstudio.com/docs/editor/settings-sync) inside vscode, if you don't care about telemetry. :)
+- Or just use the [built-in sync functions](https://code.visualstudio.com/docs/editor/settings-sync) inside vscode, if you don't care about telemetry. (Requires MS account)
 
 ### 🎨 Install design apps
 
@@ -74,7 +74,7 @@ brew install --cask sketch nucleo imageoptim
 ### 🛡 Install other misc. software
 
 ```bash
-brew install --cask 1password authy nordvpn alfred slack notion carbon-copy-cloner dropbox
+brew install --cask 1password authy nordvpn alfred discord notion carbon-copy-cloner dropbox
 ```
 
 ### 🎹 Install music / video apps (optional)
@@ -82,6 +82,9 @@ brew install --cask 1password authy nordvpn alfred slack notion carbon-copy-clon
 ```bash
 brew install --cask ableton-live-suite loopback spotify
 ```
+
+
+
 ### 📼 Install multimedia apps (optional)
 
 ```bash
@@ -216,8 +219,8 @@ If you own [BetterSnapTool](https://apps.apple.com/au/app/bettersnaptool/id41737
 - [Things 3](https://apps.apple.com/au/app/things-3/id904280696?mt=12) (paid)
 - [Notability](https://apps.apple.com/au/app/notability/id360593530) (paid)
 - [Tomato 2](https://apps.apple.com/au/app/tomato-2-pomodoro-timer/id1494210770?mt=12) (free/paid)
-  
-**Begrudgingly grab Elgato CC**
+- [Noizio Lite](https://apps.apple.com/au/app/noizio-lite-nature-sounds/id1481029536?mt=12) (free/paid)
 
-- [Direct Download v1.1.4](https://edge.elgato.com/egc/macos/eccm/1.1.4/Control_Center_1.1.4.10368.zip)
-- [Downloads page](https://www.elgato.com/en/downloads)
+**Other dumb stuff**
+
+- [Elgato CC v1.1.4](https://edge.elgato.com/egc/macos/eccm/1.1.4/Control_Center_1.1.4.10368.zip)
