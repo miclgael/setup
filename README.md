@@ -205,22 +205,6 @@ killall Dock
 > - Design tools
 > - Misc.
 
-## BetterTouchTool
-
-Install _BetterTouchTool_.
-
-```bash
-brew install --cask bettertouchtool
-```
-
-This is a paid app but has a suite of awesome tools available (additional to the touch bar customisation), such as window snapping, global keyboard shortcuts (e.g. "Hyper Key"), track-pad gesture mods, triggers and automations, MIDI triggers, etc.
-
-<img src="https://user-images.githubusercontent.com/4301358/123492681-8a911a80-d65d-11eb-8f8f-0215fc02c5af.png" alt="Screenshot of Better Snap Tool options">
-
-If you own [BetterSnapTool](https://apps.apple.com/au/app/bettersnaptool/id417375580?mt=12) (App Store) - download it, use it to authorize BTT, then uninstall BST.
-
-<small>I promise, I'm not sponsored or anything I just love this app!</small>
-
 ## macOS AppStore exclusive downloads
 
 | AppStore Link                                                                             | price     |                              Note |
