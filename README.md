@@ -170,17 +170,36 @@ Verify with `heroku --version`.
 
 Login with `heroku login` (press any key to open a browser window for authentication)
 
-#### Install Speedtest CLI
+### 🏎 Install Speedtest CLI
 
-`brew install speedtest-cli`
+```bash
+brew install speedtest-cli
+```
 
-#### Install helpful utility apps (optional)
+### 🚀 Install helpful utils
 
-`brew install --cask vanilla rocket bettertouchtool speedtest-cli`
+```bash
+brew install --cask vanilla rocket bettertouchtool speedtest-cli
+```
 
-## 🧼 Clean-up
+### 👩‍💻 macOS AppStore exclusive downloads
 
-- Get [Custom iTerm Applescripts for Alfred](https://github.com/stuartcryan/custom-iterm-applescripts-for-alfred)
+These are some apps I love, but can't currently aquire via Homebrew
+
+| AppStore Link                                                                             | price     |                              Note |
+| :---------------------------------------------------------------------------------------- | --------- | --------------------------------: |
+| [Amphetamine](https://apps.apple.com/au/app/amphetamine/id937984704?mt=12)                | free      |          Prevent OS from sleeping |
+| [Lightweight PDF](https://apps.apple.com/au/app/lightweight-pdf/id1450640351?mt=12)       | free      |           Minify PDFs for sharing |
+| [The Unarchiver](https://apps.apple.com/au/app/the-unarchiver/id425424353?mt=12)          | free      |     Slightly better archiving GUI |
+| [Xcode](https://apps.apple.com/au/app/xcode/id497799835?mt=12)                            | free      | Purely for simulating iOS devices |
+| [Things 3](https://apps.apple.com/au/app/things-3/id904280696?mt=12)                      | paid      |             The sexiest to-do app |
+| [Tomato 2](https://apps.apple.com/au/app/tomato-2-pomodoro-timer/id1494210770?mt=12)      | free/paid |               Tidy Pomodoro alarm |
+| [Notability](https://apps.apple.com/au/app/notability/id360593530)                        | paid      |          Sync with iPad notes app |
+| [Noizio Lite](https://apps.apple.com/au/app/noizio-lite-nature-sounds/id1481029536?mt=12) | free/paid |             white noise generator |
+
+### 🧼 Clean-up
+
+- Get [Custom iTerm Applescripts](https://github.com/stuartcryan/custom-iterm-applescripts-for-alfred) for Alfred
 - Grab [OBS Camera](https://obs.camera/docs/getting-started/ios-camera-plugin-usb/) for web-camming
 - Grab [DaVinci Resolve 16](https://www.blackmagicdesign.com/products/davinciresolve/) for video editing
 - Sign in to [SoundToys](https://www.soundtoys.com) to download plug-ins
@@ -204,16 +223,3 @@ killall Dock
 > - Music apps
 > - Design tools
 > - Misc.
-
-## macOS AppStore exclusive downloads
-
-| AppStore Link                                                                             | price     |                              Note |
-| :---------------------------------------------------------------------------------------- | --------- | --------------------------------: |
-| [Amphetamine](https://apps.apple.com/au/app/amphetamine/id937984704?mt=12)                | free      |          Prevent OS from sleeping |
-| [Lightweight PDF](https://apps.apple.com/au/app/lightweight-pdf/id1450640351?mt=12)       | free      |           Minify PDFs for sharing |
-| [The Unarchiver](https://apps.apple.com/au/app/the-unarchiver/id425424353?mt=12)          | free      |     Slightly better archiving GUI |
-| [Xcode](https://apps.apple.com/au/app/xcode/id497799835?mt=12)                            | free      | Purely for simulating iOS devices |
-| [Things 3](https://apps.apple.com/au/app/things-3/id904280696?mt=12)                      | paid      |             The sexiest to-do app |
-| [Tomato 2](https://apps.apple.com/au/app/tomato-2-pomodoro-timer/id1494210770?mt=12)      | free/paid |               Tidy Pomodoro alarm |
-| [Notability](https://apps.apple.com/au/app/notability/id360593530)                        | paid      |          Sync with iPad notes app |
-| [Noizio Lite](https://apps.apple.com/au/app/noizio-lite-nature-sounds/id1481029536?mt=12) | free/paid |             white noise generator |
