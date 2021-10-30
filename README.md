@@ -62,7 +62,7 @@ brew install micro
 A few ways to handle this, depending on your flavour of VS Code / VS Codium
 
 - Using [`code --install-extension <extension-name>`](https://gist.github.com/miclgael/fec1768d31c92a580a3b0a28688a29e9)
-- Using the [Settings Sync extension](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync), when connected to an appropriate [Github Gist](https://gist.github.com/miclgael/79b65d3420f95a943eb9bf94be1399c5). 
+- Using the [Settings Sync extension](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync), when connected to an appropriate [Github Gist](https://gist.github.com/miclgael/79b65d3420f95a943eb9bf94be1399c5).
 - Or just use the [built-in sync functions](https://code.visualstudio.com/docs/editor/settings-sync) inside vscode, if you don't care about telemetry. (Requires MS account)
 
 ### 🎨 Install design apps
@@ -82,8 +82,6 @@ brew install --cask 1password authy nordvpn alfred discord notion carbon-copy-cl
 ```bash
 brew install --cask ableton-live-suite loopback spotify
 ```
-
-
 
 ### 📼 Install multimedia apps (optional)
 
@@ -136,7 +134,6 @@ load-nvmrc
 
 </details>
 
-
 ### Install global node packages
 
 #### Install Netlify CLI
@@ -177,19 +174,19 @@ Login with `heroku login` (press any key to open a browser window for authentica
 
 `brew install speedtest-cli`
 
-  
-  
-  
-  
+#### Install helpful utility apps (optional)
+
+`brew install --cask vanilla rocket bettertouchtool speedtest-cli`
+
 ## 🧼 Clean-up
 
 - Get [Custom iTerm Applescripts for Alfred](https://github.com/stuartcryan/custom-iterm-applescripts-for-alfred)
-- Install some optional utils `brew install --cask vanilla rocket`
 - Grab [OBS Camera](https://obs.camera/docs/getting-started/ios-camera-plugin-usb/) for web-camming
 - Grab [DaVinci Resolve 16](https://www.blackmagicdesign.com/products/davinciresolve/) for video editing
 - Sign in to [SoundToys](https://www.soundtoys.com) to download plug-ins
+- Install [Elgato Control Center](https://edge.elgato.com/egc/macos/eccm/1.1.4/Control_Center_1.1.4.10368.zip) v1.1.4
 
-**Add [spaces to the dock](https://css-tricks.com/snippets/html/add-spaces-to-dock-in-os-x/):**
+**[Add spaces to the dock](https://css-tricks.com/snippets/html/add-spaces-to-dock-in-os-x/)**
 
 ```bash
 defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}'
@@ -197,26 +194,36 @@ defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-t
 killall Dock
 ```
 
-  
+> 💡 **Tip** I usually add 7 gaps to visually separate my apps into the following 8 groups
+>
+> - Email + To-do
+> - Note taking
+> - Web browser
+> - Password / Auth
+> - Development tools
+> - Music apps
+> - Design tools
+> - Misc.
+
 ## BetterTouchTool
 
-Install _BetterTouchTool_. 
-  
+Install _BetterTouchTool_.
+
 ```bash
 brew install --cask bettertouchtool
 ```
 
 This is a paid app but has a suite of awesome tools available (additional to the touch bar customisation), such as window snapping, global keyboard shortcuts (e.g. "Hyper Key"), track-pad gesture mods, triggers and automations, MIDI triggers, etc.
 
-![Screenshot of Better Snap Tool options](https://user-images.githubusercontent.com/4301358/123492681-8a911a80-d65d-11eb-8f8f-0215fc02c5af.png)
-  
-If you own [BetterSnapTool](https://apps.apple.com/au/app/bettersnaptool/id417375580?mt=12) (App Store) - download it, use it to authorize BTT, then uninstall BST. 
+<img src="https://user-images.githubusercontent.com/4301358/123492681-8a911a80-d65d-11eb-8f8f-0215fc02c5af.png" alt="Screenshot of Better Snap Tool options">
+
+If you own [BetterSnapTool](https://apps.apple.com/au/app/bettersnaptool/id417375580?mt=12) (App Store) - download it, use it to authorize BTT, then uninstall BST.
 
 <small>I promise, I'm not sponsored or anything I just love this app!</small>
-  
-**Visit the macOS App Store for**
-  
-| App Store Link                                                                            | price     |                              Note |
+
+## macOS AppStore exclusive downloads
+
+| AppStore Link                                                                             | price     |                              Note |
 | :---------------------------------------------------------------------------------------- | --------- | --------------------------------: |
 | [Amphetamine](https://apps.apple.com/au/app/amphetamine/id937984704?mt=12)                | free      |          Prevent OS from sleeping |
 | [Lightweight PDF](https://apps.apple.com/au/app/lightweight-pdf/id1450640351?mt=12)       | free      |           Minify PDFs for sharing |
@@ -224,9 +231,5 @@ If you own [BetterSnapTool](https://apps.apple.com/au/app/bettersnaptool/id41737
 | [Xcode](https://apps.apple.com/au/app/xcode/id497799835?mt=12)                            | free      | Purely for simulating iOS devices |
 | [Things 3](https://apps.apple.com/au/app/things-3/id904280696?mt=12)                      | paid      |             The sexiest to-do app |
 | [Tomato 2](https://apps.apple.com/au/app/tomato-2-pomodoro-timer/id1494210770?mt=12)      | free/paid |               Tidy Pomodoro alarm |
-| [Notability](https://apps.apple.com/au/app/notability/id360593530)                        | paid      |       to sync with iPad notes app |
+| [Notability](https://apps.apple.com/au/app/notability/id360593530)                        | paid      |          Sync with iPad notes app |
 | [Noizio Lite](https://apps.apple.com/au/app/noizio-lite-nature-sounds/id1481029536?mt=12) | free/paid |             white noise generator |
-
-**Other dumb stuff**
-
-- [Elgato CC v1.1.4](https://edge.elgato.com/egc/macos/eccm/1.1.4/Control_Center_1.1.4.10368.zip)
