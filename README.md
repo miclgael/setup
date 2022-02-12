@@ -186,7 +186,7 @@ brew install --cask bartender rocket bettertouchtool speedtest-cli
 ### 🎮 Install some distractions
 
 ```bash
-brew install --cask altserver steam
+brew install --cask altserver steam sony-ps-remote-play
 ```
   
 ### 👩‍💻 macOS AppStore exclusive downloads
