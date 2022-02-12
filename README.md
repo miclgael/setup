@@ -74,13 +74,13 @@ brew install --cask sketch nucleo imageoptim
 ### 🛡 Install other misc. software
 
 ```bash
-brew install --cask 1password authy nordvpn alfred discord notion carbon-copy-cloner dropbox
+brew install --cask 1password authy nordvpn alfred discord notion carbon-copy-cloner dropbox teamviewer
 ```
 
 ### 🎹 Install music / video apps (optional)
 
 ```bash
-brew install --cask ableton-live-suite loopback spotify
+brew install --cask ableton-live-suite loopback spotify spitfire-audio
 ```
 
 ### 📼 Install multimedia apps (optional)
@@ -179,9 +179,15 @@ brew install speedtest-cli
 ### 🚀 Install helpful utils
 
 ```bash
-brew install --cask vanilla rocket bettertouchtool speedtest-cli
+brew install --cask bartender rocket bettertouchtool speedtest-cli
 ```
 
+### 🎮 Install some distractions
+
+```bash
+brew install --cask altserver steam
+```
+  
 ### 👩‍💻 macOS AppStore exclusive downloads
 
 These are some apps I love, but can't currently aquire via Homebrew
