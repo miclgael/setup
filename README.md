@@ -209,7 +209,7 @@ These are some apps I love, but can't currently aquire via Homebrew
 - Grab [OBS Camera](https://obs.camera/docs/getting-started/ios-camera-plugin-usb/) for web-camming
 - Grab [DaVinci Resolve 16](https://www.blackmagicdesign.com/products/davinciresolve/) for video editing
 - Sign in to [SoundToys](https://www.soundtoys.com) to download plug-ins
-- Install [Elgato Control Center](https://edge.elgato.com/egc/macos/eccm/1.1.4/Control_Center_1.1.4.10368.zip) v1.1.4
+- Install [Elgato Control Center](https://edge.elgato.com/egc/macos/eccm/1.2/Control_Center_1.2.0.10411.zip) v1.2
 
 **[Add spaces to the dock](https://css-tricks.com/snippets/html/add-spaces-to-dock-in-os-x/)**
 
