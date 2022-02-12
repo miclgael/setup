@@ -207,7 +207,7 @@ These are some apps I love, but can't currently aquire via Homebrew
 
 - Get [Custom iTerm Applescripts](https://github.com/stuartcryan/custom-iterm-applescripts-for-alfred) for Alfred
 - Grab [OBS Camera](https://obs.camera/docs/getting-started/ios-camera-plugin-usb/) for web-camming
-- Grab [DaVinci Resolve 16](https://www.blackmagicdesign.com/products/davinciresolve/) for video editing
+- Grab [DaVinci Resolve 17](https://www.blackmagicdesign.com/products/davinciresolve/) for video editing
 - Sign in to [SoundToys](https://www.soundtoys.com) to download plug-ins
 - Install [Elgato Control Center](https://edge.elgato.com/egc/macos/eccm/1.2/Control_Center_1.2.0.10411.zip) v1.2
 
