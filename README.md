@@ -210,6 +210,7 @@ These are some apps I love, but can't currently aquire via Homebrew
 - Grab [OBS Camera](https://obs.camera/docs/getting-started/ios-camera-plugin-usb/) for web-camming
 - Grab [DaVinci Resolve 17](https://www.blackmagicdesign.com/products/davinciresolve/) for video editing
 - Sign in to [SoundToys](https://www.soundtoys.com) to download plug-ins
+- Sign in to [Vital.audio](https://vital.audio) to download VST synth
 
 **[Add spaces to the dock](https://css-tricks.com/snippets/html/add-spaces-to-dock-in-os-x/)**
 
