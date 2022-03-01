@@ -95,7 +95,7 @@ brew install --cask kap handbrake obs
 Installs NVM (switch between multiple versions of Node.JS on the same system)
 
 ```bash
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 ```
 
 Installs Node.JS <version> and relative NPM version.
