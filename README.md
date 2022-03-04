@@ -86,7 +86,7 @@ brew install --cask microsoft-teams slack discord teamviewer
 ### 🎹 Install music and multimedia software
 
 ```bash
-brew install --cask ableton-live-suite loopback spotify spitfire-audio && \ 
+brew install --cask ableton-live-suite loopback spitfire-audio && \ 
 kap handbrake obs
 ```
 
