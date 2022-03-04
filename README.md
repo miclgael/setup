@@ -65,29 +65,29 @@ There are a few ways to handle this, depending on your flavour of VS Code.
 2. Medium: If you're using VS Codium, you might like to try the [Settings Sync extension](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync). Connect to a [Github Gist](https://gist.github.com/miclgael/79b65d3420f95a943eb9bf94be1399c5) in order to save your settings
 3. Hard: Manually install using the command line, `code --install-extension <extension-name>`. You could still save your settings to a [Github Gist](https://gist.github.com/miclgael/fec1768d31c92a580a3b0a28688a29e9))
 
-### 🎨 Install design apps
+### 🎨 Install design software
 
 ```bash
-brew install --cask sketch nucleo imageoptim
+brew install --cask sketch figma nucleo imageoptim
 ```
 
-### 🛡 Install other misc. software
+### 🛡️ Install security and backup software
 
 ```bash
-brew install --cask 1password authy nordvpn alfred discord notion carbon-copy-cloner dropbox &&\ 
-brew install --cask teamviewer homebrew/cask-drivers/elgato-control-center
+brew install --cask 1password authy nordvpn carbon-copy-cloner dropbox
 ```
 
-### 🎹 Install music / video apps (optional)
+### 💬 Install chat and teamwork software
 
 ```bash
-brew install --cask ableton-live-suite loopback spotify spitfire-audio
+brew install --cask microsoft-teams slack discord teamviewer
 ```
 
-### 📼 Install multimedia apps (optional)
+### 🎹 Install music and multimedia software
 
 ```bash
-brew install --cask kap handbrake obs
+brew install --cask ableton-live-suite loopback spotify spitfire-audio && \ 
+kap handbrake obs
 ```
 
 ### 💚 Install [Node Version Manager](https://github.com/nvm-sh/nvm)
@@ -105,7 +105,7 @@ nvm install node # "node" is an alias for the latest version
 ```
 
 <details>
-<summary><strong>Auto-load from `.nvmrc` when changing directory</strong></summary>
+<summary><strong>🤖 Auto-load from `.nvmrc` when changing directory</strong></summary>
 
 ```zsh
 # place this after nvm initialization!
@@ -137,7 +137,7 @@ load-nvmrc
 
 ### Install global node packages
 
-#### Install Netlify CLI
+#### 🖥️ Install Netlify CLI
 
 ```bash
 npm install netlify-cli -g
@@ -145,7 +145,7 @@ npm install netlify-cli -g
 netlify login
 ```
 
-#### Set up [Netlify Large Media](https://docs.netlify.com/large-media/setup/)
+#### 📹 Set up [Netlify Large Media](https://docs.netlify.com/large-media/setup/)
 
 _(requires [Git LFS](#install-git-large-file-storage))_
 
@@ -157,8 +157,13 @@ netlify link
 netlify lm:setup
 ```
 
-#### Install Heroku CLI
+#### 🖥️ Install Heroku CLI
 
+> Note: I'm not longer using Heroku since moving to Serverless functions - so I may remove this in future.
+  
+<details>
+  <summary><strong>Steps</strong></summary>
+  
 ```bash
 brew tap heroku/brew && brew install heroku
 
@@ -170,11 +175,14 @@ heroku autocomplete
 Verify with `heroku --version`.
 
 Login with `heroku login` (press any key to open a browser window for authentication)
+  
+</details>
 
 ### 🚀 Install helpful utils
 
 ```bash
-brew install --cask bartender rocket bettertouchtool speedtest-cli
+brew install --cask alfred bartender rocket bettertouchtool speedtest-cli && \
+homebrew/cask-drivers/elgato-control-center
 ```
 
 ### 🎮 Install some distractions
