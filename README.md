@@ -59,11 +59,11 @@ brew install micro
 
 ### 💻 Install preferred VS Code extensions
 
-A few ways to handle this, depending on your flavour of VS Code / VS Codium
+There are a few ways to handle this, depending on your flavour of VS Code.
 
-- Using [`code --install-extension <extension-name>`](https://gist.github.com/miclgael/fec1768d31c92a580a3b0a28688a29e9)
-- Using the [Settings Sync extension](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync), when connected to an appropriate [Github Gist](https://gist.github.com/miclgael/79b65d3420f95a943eb9bf94be1399c5).
-- Or just use the [built-in sync functions](https://code.visualstudio.com/docs/editor/settings-sync) inside vscode, if you don't care about telemetry. (Requires MS account)
+1. Easy: If you don't care about telemetry, just use the [built-in sync functions](https://code.visualstudio.com/docs/editor/settings-sync) in VS Code. Note: a Microsoft Account is required
+2. Medium: If you're using VS Codium, you might like to try the [Settings Sync extension](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync). Connect to a [Github Gist](https://gist.github.com/miclgael/79b65d3420f95a943eb9bf94be1399c5) in order to save your settings
+3. Hard: Manually install using the command line, `code --install-extension <extension-name>`. You could still save your settings to a [Github Gist](https://gist.github.com/miclgael/fec1768d31c92a580a3b0a28688a29e9))
 
 ### 🎨 Install design apps
 
