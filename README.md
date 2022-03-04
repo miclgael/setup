@@ -203,6 +203,7 @@ These are some apps I love, but can't currently aquire via Homebrew
 | [Tomato 2](https://apps.apple.com/au/app/tomato-2-pomodoro-timer/id1494210770?mt=12)      | free/paid |               Tidy Pomodoro alarm |
 | [Notability](https://apps.apple.com/au/app/notability/id360593530)                        | paid      |          Sync with iPad notes app |
 | [Noizio Lite](https://apps.apple.com/au/app/noizio-lite-nature-sounds/id1481029536?mt=12) | free/paid |             white noise generator |
+| [Canary Mail](https://apps.apple.com/us/app/canary-mail/id1236045954)                     | paid      |      privacy focussed mail client |
 
 ### 🧼 Clean-up
 
@@ -212,8 +213,8 @@ These are some apps I love, but can't currently aquire via Homebrew
 - Sign in to [SoundToys](https://www.soundtoys.com) to download plug-ins
 - Sign in to [Vital.audio](https://vital.audio) to download VST synth
 - Grab printer drivers from [Canon](https://www.canon.com.au/printers/pixma-mp230/support) and [TP-Link](https://www.tp-link.com/au/support/download/archer-vr2800/)
-- Grab some custom app icons from [macOSicons](https://macosicons.com/#/) by [Elias](https://github.com/elrumo)
-
+- Grab some [custom app icons](https://macosicons.com/#/) 
+  
 **[Add spaces to the dock](https://css-tricks.com/snippets/html/add-spaces-to-dock-in-os-x/)**
 
 ```bash
