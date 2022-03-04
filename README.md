@@ -171,12 +171,6 @@ Verify with `heroku --version`.
 
 Login with `heroku login` (press any key to open a browser window for authentication)
 
-### 🏎 Install Speedtest CLI
-
-```bash
-brew install speedtest-cli
-```
-
 ### 🚀 Install helpful utils
 
 ```bash
