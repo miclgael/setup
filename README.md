@@ -159,7 +159,7 @@ netlify lm:setup
 
 #### 🖥️ Install Heroku CLI
 
-> Note: I'm not longer using Heroku since moving to Serverless functions - so I may remove this in future.
+> Note: I am no longer using Heroku since moving to Serverless functions - so I may remove this in future.
   
 <details>
   <summary><strong>Steps</strong></summary>
