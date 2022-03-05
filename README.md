@@ -181,8 +181,9 @@ Login with `heroku login` (press any key to open a browser window for authentica
 ### 🚀 Install helpful utils
 
 ```bash
-brew install --cask alfred bartender rocket bettertouchtool speedtest-cli && \
-homebrew/cask-drivers/elgato-control-center
+brew install --cask alfred bartender rocket bettertouchtool && \
+homebrew/cask-drivers/elgato-control-center && \ 
+brew install speedtest-cli 
 ```
 
 ### 🎮 Install some distractions
