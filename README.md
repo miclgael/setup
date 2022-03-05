@@ -71,6 +71,19 @@ There are a few ways to handle this, depending on your flavour of VS Code.
 brew install --cask sketch figma nucleo imageoptim
 ```
 
+**Install [Fira Code](https://github.com/tonsky/FiraCode/) font**
+
+```bash
+brew tap homebrew/cask-fonts && \
+brew install font-fira-code
+```
+
+**Install [Google Web Fonts](https://github.com/qrpike/Web-Font-Load)**
+
+```
+curl https://raw.githubusercontent.com/qrpike/Web-Font-Load/master/install.sh | bash
+```
+
 ### 🛡️ Install security and backup software
 
 ```bash
