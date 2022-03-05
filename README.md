@@ -43,7 +43,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 ### 👩‍💻 Install development software
 
 ```bash
-brew install --cask iterm2 visual-studio-code mamp codekit tableplus sourcetree insomnia docker && \
+brew install --cask iterm2 visual-studio-code mamp codekit forklift tableplus sourcetree insomnia docker && \
 brew install --cask homebrew/cask-versions/firefox-developer-edition && \
 brew install composer
 ```
