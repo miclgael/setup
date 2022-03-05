@@ -189,7 +189,8 @@ brew install speedtest-cli
 ### 🎮 Install some distractions
 
 ```bash
-brew install --cask altserver steam sony-ps-remote-play
+brew install --cask altserver steam plex && \
+brew install --cask homebrew/cask-drivers/sony-ps-remote-play
 ```
   
 ### 👩‍💻 macOS AppStore exclusive downloads
