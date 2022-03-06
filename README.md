@@ -231,6 +231,7 @@ These are some apps I love, but can't currently aquire via Homebrew
 - Sign in to [Vital.audio](https://vital.audio) to download VST synth
 - Grab printer drivers from [Canon](https://www.canon.com.au/printers/pixma-mp230/support) and [TP-Link](https://www.tp-link.com/au/support/download/archer-vr2800/)
 - Grab some [custom app icons](https://macosicons.com/#/) 
+- [Read about GPG on macOS](https://dev.to/wes/how2-using-gpg-on-macos-without-gpgtools-428f)  
   
 **[Add spaces to the dock](https://css-tricks.com/snippets/html/add-spaces-to-dock-in-os-x/)**
 
