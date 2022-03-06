@@ -40,6 +40,86 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 (follow the instructions, again)
 
+### Configure Git Signing (GNUPG) 
+
+This can be an awful process but I found [this](https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key) [combination](https://dev.to/wes/how2-using-gpg-on-macos-without-gpgtools-428f) of [solutions](https://gist.github.com/johnwgillis/e32e98846ec6136cb597dab57f0f7166#how-to-setup-gpg-for-signing-commits-with-git-sourcetree-and-github-on-mac) to work well for me. 
+
+<details>
+  <summary>Full steps here</summary>
+
+```bash
+brew install gnupg pinentry-mac
+```
+
+> Quit and reopen your terminal here. Heck, restart your machine.
+
+```bash
+gpg --default-new-key-algo rsa4096 --gen-key
+```
+
+Create and append pinentry, "allowing the gpg key's passphrase to be stored in the login keychain, enabling automatic key signing". - Wes
+
+```bash
+echo "pinentry-program /usr/local/bin/pinentry-mac" > ~/.gnupg/gpg-agent.conf
+```
+
+Test GPG is working
+
+```
+echo "test" | gpg --clearsign
+```
+
+- List the keys
+- Copy line #2 to your clipboard
+
+```
+gpg --list-secret-keys --keyid-format=long | grep sec -A 1
+```
+
+Print ASCII version of the key, for Github.
+
+```
+gpg --export --armor YOUR_GPG_KEY_HERE | pbcopy
+```
+
+Then, paste the output into [GitHub’s GPG settings page](https://github.com/settings/gpg/new)
+
+
+Finally, tell git about your key
+
+```
+git config --global user.signingkey YOUR_GPG_KEY_HERE
+git config --global commit.gpgsign true
+git config --global gpg.program gpg
+```
+
+#### Setup GPG in Sourcetree
+
+```
+ln -s /usr/local/bin/gpg /usr/local/bin/gpg2
+```
+
+In Sourcetree, go to advanced settings and point the gpg file to `/usr/local/bin`
+
+
+#### Troubleshooting
+
+```
+brew unlink gpg && brew link gpg
+```
+
+```
+# Kill gpg-agent
+killall gpg-agent
+
+# Run gpg-agent in daemon mode
+gpg-agent --daemon
+```
+
+</details>
+
+**Credit:** [Wes](https://dev.to/wes), [John](https://github.com/johnwgillis)
+
 ### 👩‍💻 Install development software
 
 ```bash
