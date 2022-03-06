@@ -1,0 +1,4 @@
+[submodule "dotfiles"]
+	path = dotfiles
+	url = /Users/michaelgale/Code/projects/dotfiles
+	branch = main
