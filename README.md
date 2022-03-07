@@ -53,16 +53,21 @@ brew install gnupg pinentry-mac
 
 > Quit and reopen your terminal here. Heck, restart your machine.
 
-```bash
-gpg --default-new-key-algo rsa4096 --gen-key
-```
-
 Create and append pinentry, "allowing the gpg key's passphrase to be stored in the login keychain, enabling automatic key signing". - Wes
 
 ```bash
-echo "pinentry-program /usr/local/bin/pinentry-mac" > ~/.gnupg/gpg-agent.conf
+mkdir -m 700 -p ~/.gnupg && \
+touch ~/.gnupg/gpg-agent.conf && \
+echo "pinentry-program /usr/local/bin/pinentry-mac" >> ~/.gnupg/gpg-agent.conf &&\
+killall gpg-agent
 ```
 
+Create a new key that will work locally and also with Github.
+  
+```bash
+gpg --default-new-key-algo rsa4096 --gen-key
+```
+  
 Test GPG is working
 
 ```
