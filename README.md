@@ -151,6 +151,8 @@ There are a few ways to handle this, depending on your flavour of VS Code.
 brew install --cask sketch figma nucleo imageoptim
 ```
 
+- ✨ Bonus: [Discover icon sets for Nucleo &rarr;](https://github.com/vkarampinis/awesome-icons)
+
 **Install [Fira Code](https://github.com/tonsky/FiraCode/) font**
 
 ```bash
