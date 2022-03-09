@@ -282,7 +282,7 @@ Login with `heroku login` (press any key to open a browser window for authentica
 
 ```bash
 brew install --cask alfred bartender rocket bettertouchtool && \
-homebrew/cask-drivers/elgato-control-center && \ 
+brew install --cask homebrew/cask-drivers/elgato-control-center && \ 
 brew install speedtest-cli 
 ```
 
