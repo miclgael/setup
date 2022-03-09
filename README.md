@@ -129,13 +129,13 @@ gpg-agent --daemon
 
 ```bash
 brew install --cask iterm2 visual-studio-code mamp codekit forklift tableplus sourcetree insomnia docker && \
-brew install --cask homebrew/cask-versions/firefox-developer-edition && \
+brew install --cask chrome firefox homebrew/cask-versions/firefox-developer-edition && \
 brew install composer
 ```
 
 - [Fix iTerm2 Arrow Keys](https://coderwall.com/p/gfmwlw/fixing-arrow-keys-in-iterm-2)
 - [Change default +click browser](https://stackoverflow.com/a/46568996)
-
+ 
 **[Micro editor](https://micro-editor.github.io/) (nicer than Nano, easier than Vim)**
 
 ```bash
