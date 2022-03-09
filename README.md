@@ -187,7 +187,7 @@ brew install --cask microsoft-teams slack discord teamviewer
 
 ```bash
 brew install --cask ableton-live-suite loopback spitfire-audio && \ 
-kap handbrake obs
+brew install --cask kap handbrake obs
 ```
 
 ### 💚 Install [Node Version Manager](https://github.com/nvm-sh/nvm)
