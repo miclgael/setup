@@ -310,6 +310,9 @@ These are some apps I love, but can't currently aquire via Homebrew
 | [Notability](https://apps.apple.com/au/app/notability/id360593530)                        | paid      |          Sync with iPad notes app |
 | [Noizio Lite](https://apps.apple.com/au/app/noizio-lite-nature-sounds/id1481029536?mt=12) | free/paid |             white noise generator |
 | [Canary Mail](https://apps.apple.com/us/app/canary-mail/id1236045954)                     | paid      |      privacy focussed mail client |
+| [Spark Email](https://apps.apple.com/app/id1176895641)                                    | free      |  a very amazing email experience* |
+  
+\* But do read the privacy policy
 
 ### 🧼 Clean-up
 
