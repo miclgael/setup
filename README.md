@@ -155,10 +155,11 @@ There are a few ways to handle this, depending on your flavour of VS Code.
 ### 🎨 Install design software
 
 ```bash
-brew install --cask sketch figma nucleo imageoptim
+brew install --cask figma nucleo imageoptim
 ```
 
 - ✨ Bonus: [Discover icon sets for Nucleo &rarr;](https://github.com/vkarampinis/awesome-icons)
+- Download [Sketch v75](https://download.sketch.com/sketch-75-129697.zip)
 
 **Install [Fira Code](https://github.com/tonsky/FiraCode/) font**
 
