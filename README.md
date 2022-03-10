@@ -160,6 +160,7 @@ brew install --cask figma nucleo imageoptim
 
 - ✨ Bonus: [Discover icon sets for Nucleo &rarr;](https://github.com/vkarampinis/awesome-icons)
 - Download [Sketch v75](https://download.sketch.com/sketch-75-129697.zip)
+- Get [Sketch plug-ins](https://www.sketch.com/extensions/plugins/), e.g. SVGO Compressor 
 
 **Install [Fira Code](https://github.com/tonsky/FiraCode/) font**
 
