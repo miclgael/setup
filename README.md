@@ -261,27 +261,6 @@ netlify link
 netlify lm:setup
 ```
 
-#### 🖥️ Install Heroku CLI
-
-> Note: I am no longer using Heroku since moving to Serverless functions - so I may remove this in future.
-  
-<details>
-  <summary><strong>Steps</strong></summary>
-  
-```bash
-brew tap heroku/brew && brew install heroku
-
-heroku autocomplete --refresh-cache
-
-heroku autocomplete
-```
-
-Verify with `heroku --version`.
-
-Login with `heroku login` (press any key to open a browser window for authentication)
-  
-</details>
-
 ### 🚀 Install helpful utils
 
 ```bash
@@ -305,13 +284,13 @@ These are some apps I love, but can't currently aquire via Homebrew
 | :---------------------------------------------------------------------------------------- | --------- | --------------------------------: |
 | [Amphetamine](https://apps.apple.com/au/app/amphetamine/id937984704?mt=12)                | free      |          Prevent OS from sleeping |
 | [Lightweight PDF](https://apps.apple.com/au/app/lightweight-pdf/id1450640351?mt=12)       | free      |           Minify PDFs for sharing |
-| [The Unarchiver](https://apps.apple.com/au/app/the-unarchiver/id425424353?mt=12)          | free      |     Slightly better archiving GUI |
-| [Xcode](https://apps.apple.com/au/app/xcode/id497799835?mt=12)                            | free      | Purely for simulating iOS devices |
-| [Things 3](https://apps.apple.com/au/app/things-3/id904280696?mt=12)                      | paid      |             The sexiest to-do app |
-| [Tomato 2](https://apps.apple.com/au/app/tomato-2-pomodoro-timer/id1494210770?mt=12)      | free/paid |               Tidy Pomodoro alarm |
-| [Notability](https://apps.apple.com/au/app/notability/id360593530)                        | paid      |          Sync with iPad notes app |
 | [Noizio Lite](https://apps.apple.com/au/app/noizio-lite-nature-sounds/id1481029536?mt=12) | free/paid |             white noise generator |
+| [Notability](https://apps.apple.com/au/app/notability/id360593530)                        | paid      |          Sync with iPad notes app |
 | [Spark Email](https://apps.apple.com/app/id1176895641)                                    | free      |  a very amazing email experience* |
+| [The Unarchiver](https://apps.apple.com/au/app/the-unarchiver/id425424353?mt=12)          | free      |     Slightly better archiving GUI |
+| [Things](https://apps.apple.com/au/app/things-3/id904280696?mt=12)                        | paid      |             The sexiest to-do app |
+| [Tomato](https://apps.apple.com/au/app/tomato-2-pomodoro-timer/id1494210770?mt=12)        | free/paid |               Tidy Pomodoro alarm |
+| [Xcode](https://apps.apple.com/au/app/xcode/id497799835?mt=12)                            | free      | Purely for simulating iOS devices |
   
 \* But do read the privacy policy
 
