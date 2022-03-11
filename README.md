@@ -241,10 +241,18 @@ load-nvmrc
 
 ### Install global node packages
 
+#### 📜 Install ES Lint
+
+Required for the VS Code extension to work properly on single JS files.
+
+```
+npm install -g eslint
+```
+
 #### 🖥️ Install Netlify CLI
 
 ```bash
-npm install netlify-cli -g
+npm install -g netlify-cli
 
 netlify login
 ```
