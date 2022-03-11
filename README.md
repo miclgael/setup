@@ -261,27 +261,6 @@ netlify link
 netlify lm:setup
 ```
 
-#### 🖥️ Install Heroku CLI
-
-> Note: I am no longer using Heroku since moving to Serverless functions - so I may remove this in future.
-  
-<details>
-  <summary><strong>Steps</strong></summary>
-  
-```bash
-brew tap heroku/brew && brew install heroku
-
-heroku autocomplete --refresh-cache
-
-heroku autocomplete
-```
-
-Verify with `heroku --version`.
-
-Login with `heroku login` (press any key to open a browser window for authentication)
-  
-</details>
-
 ### 🚀 Install helpful utils
 
 ```bash
