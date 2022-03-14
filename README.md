@@ -134,7 +134,7 @@ brew install composer
 ```
 
 - [Fix iTerm2 Arrow Keys](https://coderwall.com/p/gfmwlw/fixing-arrow-keys-in-iterm-2)
-- [Change default +click browser](https://stackoverflow.com/a/46568996)
+- [Change default +click browser](https://stackoverflow.com/a/46568996) (see also: https://stackoverflow.com/a/61221700)
  
 **[Micro editor](https://micro-editor.github.io/) (nicer than Nano, easier than Vim)**
 
