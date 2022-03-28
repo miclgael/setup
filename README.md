@@ -194,6 +194,8 @@ brew install --cask ableton-live-suite loopback spitfire-audio && \
 brew install --cask kap handbrake obs
 ```
 
+- [Run XLN Audio installer &rarr;](https://www.xlnaudio.com/install)
+
 ### 💚 Install [Node Version Manager](https://github.com/nvm-sh/nvm)
 
 Installs NVM (switch between multiple versions of Node.JS on the same system)
