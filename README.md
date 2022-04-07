@@ -191,10 +191,12 @@ brew install --cask microsoft-teams slack discord signal teamviewer zoom
 
 ```bash
 brew install --cask ableton-live-suite loopback spitfire-audio && \ 
-brew install --cask kap handbrake obs
+brew install --cask kap handbrake obs 
+brew install progrium/taps/topframe
 ```
 
 - [Run XLN Audio installer &rarr;](https://www.xlnaudio.com/install)
+- [My Topframe local overlay template](https://github.com/miclgael/setup/blob/main/index.html)
 
 ### 💚 Install [Node Version Manager](https://github.com/nvm-sh/nvm)
 
