@@ -40,9 +40,9 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 (follow the instructions, again)
 
-### Configure Git Signing (GNUPG) 
+### Configure Git Signing (GNUPG)
 
-This can be an awful process but I found [this](https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key) [combination](https://dev.to/wes/how2-using-gpg-on-macos-without-gpgtools-428f) of [solutions](https://gist.github.com/johnwgillis/e32e98846ec6136cb597dab57f0f7166#how-to-setup-gpg-for-signing-commits-with-git-sourcetree-and-github-on-mac) to work well for me. 
+This can be an awful process but I found [this](https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key) [combination](https://dev.to/wes/how2-using-gpg-on-macos-without-gpgtools-428f) of [solutions](https://gist.github.com/johnwgillis/e32e98846ec6136cb597dab57f0f7166#how-to-setup-gpg-for-signing-commits-with-git-sourcetree-and-github-on-mac) to work well for me.
 
 <details>
   <summary>Full steps here</summary>
@@ -63,11 +63,11 @@ killall gpg-agent
 ```
 
 Create a new key that will work locally and also with Github.
-  
+
 ```bash
 gpg --default-new-key-algo rsa4096 --gen-key
 ```
-  
+
 Test GPG is working
 
 ```
@@ -89,7 +89,6 @@ gpg --export --armor YOUR_GPG_KEY_HERE | pbcopy
 
 Then, paste the output into [GitHub’s GPG settings page](https://github.com/settings/gpg/new)
 
-
 Finally, tell git about your key
 
 ```
@@ -105,7 +104,6 @@ ln -s /usr/local/bin/gpg /usr/local/bin/gpg2
 ```
 
 In Sourcetree, go to advanced settings and point the gpg file to `/usr/local/bin`
-
 
 #### Troubleshooting
 
@@ -135,7 +133,7 @@ brew install composer
 
 - [Fix iTerm2 Arrow Keys](https://coderwall.com/p/gfmwlw/fixing-arrow-keys-in-iterm-2)
 - [Change default +click browser](https://stackoverflow.com/a/46568996) (see also: https://stackoverflow.com/a/61221700)
- 
+
 **[Micro editor](https://micro-editor.github.io/) (nicer than Nano, easier than Vim)**
 
 ```bash
@@ -146,7 +144,7 @@ brew install micro
 
 There are a few ways to handle this, depending on your flavour of VS Code.
 
-1. Easy: If you don't care about telemetry, just use the [built-in sync functions](https://code.visualstudio.com/docs/editor/settings-sync) in VS Code. Note: a Microsoft or Github<sup>*</sup> account is required
+1. Easy: If you don't care about telemetry, just use the [built-in sync functions](https://code.visualstudio.com/docs/editor/settings-sync) in VS Code. Note: a Microsoft or Github<sup>\*</sup> account is required
 2. Medium: If you're using VS Codium, you might like to try the [Settings Sync extension](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync). Connect to a [Github Gist](https://gist.github.com/miclgael/79b65d3420f95a943eb9bf94be1399c5) in order to save your settings
 3. Hard: Manually install using the command line, `code --install-extension <extension-name>`. You could still save your settings to a [Github Gist](https://gist.github.com/miclgael/fec1768d31c92a580a3b0a28688a29e9))
 
@@ -160,7 +158,7 @@ brew install --cask figma nucleo imageoptim
 
 - ✨ Bonus: [Discover icon sets for Nucleo &rarr;](https://github.com/vkarampinis/awesome-icons)
 - Download [Sketch v75](https://download.sketch.com/sketch-75-129697.zip)
-- Get [Sketch plug-ins](https://www.sketch.com/extensions/plugins/), e.g. SVGO Compressor 
+- Get [Sketch plug-ins](https://www.sketch.com/extensions/plugins/), e.g. SVGO Compressor
 
 **Install [Fira Code](https://github.com/tonsky/FiraCode/) font**
 
@@ -190,13 +188,13 @@ brew install --cask microsoft-teams slack discord signal teamviewer zoom
 ### 🎹 Install music and multimedia software
 
 ```bash
-brew install --cask ableton-live-suite loopback spitfire-audio && \ 
-brew install --cask kap handbrake obs 
+brew install --cask ableton-live-suite loopback spitfire-audio && \
+brew install --cask kap handbrake obs
 brew install progrium/taps/topframe
 ```
 
 - [Run XLN Audio installer &rarr;](https://www.xlnaudio.com/install)
-- [My Topframe local overlay template](https://github.com/miclgael/setup/blob/main/index.html)
+- [My Topframe local overlay template](https://github.com/miclgael/setup/blob/main/.topframe/index.html)
 
 ### 💚 Install [Node Version Manager](https://github.com/nvm-sh/nvm)
 
@@ -277,8 +275,8 @@ netlify lm:setup
 
 ```bash
 brew install --cask alfred bartender rocket bettertouchtool && \
-brew install --cask homebrew/cask-drivers/elgato-control-center && \ 
-brew install speedtest-cli 
+brew install --cask homebrew/cask-drivers/elgato-control-center && \
+brew install speedtest-cli
 ```
 
 ### 🎮 Install some distractions
@@ -287,7 +285,7 @@ brew install speedtest-cli
 brew install --cask altserver steam plex && \
 brew install --cask homebrew/cask-drivers/sony-ps-remote-play
 ```
-  
+
 ### 👩‍💻 macOS AppStore exclusive downloads
 
 These are some apps I love, but can't currently aquire via Homebrew
@@ -298,12 +296,12 @@ These are some apps I love, but can't currently aquire via Homebrew
 | [Lightweight PDF](https://apps.apple.com/au/app/lightweight-pdf/id1450640351?mt=12)       | free      |           Minify PDFs for sharing |
 | [Noizio Lite](https://apps.apple.com/au/app/noizio-lite-nature-sounds/id1481029536?mt=12) | free/paid |             white noise generator |
 | [Notability](https://apps.apple.com/au/app/notability/id360593530)                        | paid      |          Sync with iPad notes app |
-| [Spark Email](https://apps.apple.com/app/id1176895641)                                    | free      |  a very amazing email experience* |
+| [Spark Email](https://apps.apple.com/app/id1176895641)                                    | free      | a very amazing email experience\* |
 | [The Unarchiver](https://apps.apple.com/au/app/the-unarchiver/id425424353?mt=12)          | free      |     Slightly better archiving GUI |
 | [Things](https://apps.apple.com/au/app/things-3/id904280696?mt=12)                        | paid      |             The sexiest to-do app |
 | [Tomato](https://apps.apple.com/au/app/tomato-2-pomodoro-timer/id1494210770?mt=12)        | free/paid |               Tidy Pomodoro alarm |
 | [Xcode](https://apps.apple.com/au/app/xcode/id497799835?mt=12)                            | free      | Purely for simulating iOS devices |
-  
+
 \* But do read the privacy policy
 
 ### 🧼 Clean-up
@@ -314,8 +312,8 @@ These are some apps I love, but can't currently aquire via Homebrew
 - Sign in to [SoundToys](https://www.soundtoys.com) to download plug-ins
 - Sign in to [Vital.audio](https://vital.audio) to download VST synth
 - Grab printer drivers from [Canon](https://www.canon.com.au/printers/pixma-mp230/support) and [TP-Link](https://www.tp-link.com/au/support/download/archer-vr2800/)
-- Grab some [custom app icons](https://macosicons.com/#/) 
-  
+- Grab some [custom app icons](https://macosicons.com/#/)
+
 **[Add spaces to the dock](https://css-tricks.com/snippets/html/add-spaces-to-dock-in-os-x/)**
 
 ```bash
