@@ -127,7 +127,7 @@ gpg-agent --daemon
 
 ```bash
 brew install --cask iterm2 visual-studio-code mamp codekit forklift tableplus sourcetree insomnia docker && \
-brew install --cask chrome firefox homebrew/cask-versions/firefox-developer-edition && \
+brew install --cask google-chrome firefox homebrew/cask-versions/firefox-developer-edition && \
 brew install composer
 ```
 
