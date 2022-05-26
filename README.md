@@ -9,7 +9,7 @@ Notes and scripts for setting up a new macOS dev environment _(Follow at your ow
 ### 🍻 Install [Homebrew](https://brew.sh/)
 
 ```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
 - Installs Xcode command line tools
