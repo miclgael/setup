@@ -126,7 +126,7 @@ gpg-agent --daemon
 ### 👩‍💻 Install development software
 
 ```bash
-brew install --cask iterm2 visual-studio-code mamp codekit forklift tableplus sourcetree insomnia docker && \
+brew install --cask iterm2 visual-studio-code mamp codekit forklift tableplus tower obsidian insomnia docker && \
 brew install --cask google-chrome firefox homebrew/cask-versions/firefox-developer-edition && \
 brew install composer
 ```
@@ -176,20 +176,20 @@ curl https://raw.githubusercontent.com/qrpike/Web-Font-Load/master/install.sh | 
 ### 🛡️ Install security and backup software
 
 ```bash
-brew install --cask 1password authy nordvpn carbon-copy-cloner dropbox
+brew install --cask 1password nordvpn carbon-copy-cloner dropbox
 ```
 
 ### 💬 Install chat and teamwork software
 
 ```bash
-brew install --cask microsoft-teams slack discord signal teamviewer zoom
+brew install --cask microsoft-teams onedrive slack discord signal teamviewer zoom
 ```
 
 ### 🎹 Install music and multimedia software
 
 ```bash
 brew install --cask ableton-live-suite loopback spitfire-audio && \
-brew install --cask kap handbrake obs
+brew install --cask handbrake obs
 brew install progrium/taps/topframe
 ```
 
@@ -276,14 +276,17 @@ netlify lm:setup
 ```bash
 brew install --cask alfred bartender rocket bettertouchtool && \
 brew install --cask homebrew/cask-drivers/elgato-control-center && \
-brew install speedtest-cli
+brew install speedtest-cli && \
+brew install fig && \
+brew install --cask cleanshot
 ```
 
 ### 🎮 Install some distractions
 
 ```bash
 brew install --cask altserver steam plex && \
-brew install --cask homebrew/cask-drivers/sony-ps-remote-play
+brew install --cask homebrew/cask-drivers/sony-ps-remote-play && \
+brew install --cask blender lycheeslicer
 ```
 
 ### 👩‍💻 macOS AppStore exclusive downloads
