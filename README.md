@@ -188,7 +188,7 @@ brew install --cask microsoft-teams onedrive slack discord signal teamviewer zoo
 ### 🎹 Install music and multimedia software
 
 ```bash
-brew install --cask ableton-live-suite loopback spitfire-audio && \
+brew install --cask ableton-live-suite loopback && \
 brew install --cask handbrake obs
 brew install progrium/taps/topframe
 ```
