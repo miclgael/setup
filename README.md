@@ -191,7 +191,8 @@ brew install --cask microsoft-teams onedrive slack discord signal teamviewer zoo
 brew install --cask ableton-live-suite loopback && \
 brew install --cask handbrake obs && \
 brew install progrium/taps/topframe && \
-brew install blackhole-16ch
+brew install blackhole-16ch && \
+brew install --cask elektron-transfer
 ```
 
 - [Run XLN Audio installer &rarr;](https://www.xlnaudio.com/install)
