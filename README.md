@@ -337,3 +337,7 @@ killall Dock
 > - Music apps
 > - Design tools
 > - Misc.
+
+## Credits
+
+- Scripts originally written by [Mathias Bynens](@mathiasbynens/dotfiles), modified by me.
