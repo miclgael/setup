@@ -1,4 +1,0 @@
-[submodule "dotfiles"]
-	path = dotfiles
-	url=git@github.com:miclgael/dotfiles.git
-	branch = main
