@@ -196,7 +196,7 @@ brew install --cask elektron-transfer
 ```
 
 - [Run XLN Audio installer &rarr;](https://www.xlnaudio.com/install)
-- [My Topframe local overlay template](https://github.com/miclgael/setup/blob/main/.topframe/index.html)
+- [My Topframe local overlay template](https://github.com/miclgael/setup/blob/main/dotfiles/.topframe/index.html)
 
 ### 💚 Install [Node Version Manager](https://github.com/nvm-sh/nvm)
 
