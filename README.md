@@ -192,7 +192,8 @@ brew install --cask ableton-live-suite loopback && \
 brew install --cask handbrake obs && \
 brew install progrium/taps/topframe && \
 brew install blackhole-16ch && \
-brew install --cask elektron-transfer
+brew install --cask elektron-transfer && \
+brew install switchaudio-osx
 ```
 
 - [Run XLN Audio installer &rarr;](https://www.xlnaudio.com/install)
