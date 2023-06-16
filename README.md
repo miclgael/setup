@@ -1,4 +1,4 @@
-#  setup
+# 🍎 setup
 
 Notes and scripts for setting up a new macOS dev environment _(Follow at your own risk / benefit)_
 
