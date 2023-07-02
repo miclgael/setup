@@ -182,7 +182,7 @@ brew install --cask 1password nordvpn carbon-copy-cloner dropbox
 ### 💬 Install chat and teamwork software
 
 ```bash
-brew install --cask microsoft-teams onedrive slack discord signal teamviewer zoom
+brew install --cask microsoft-teams onedrive slack discord signal teamviewer zoom megasync
 ```
 
 ### 🎹 Install music and multimedia software
@@ -268,9 +268,7 @@ _(requires [Git LFS](#install-git-large-file-storage))_
 
 ```bash
 cd project-name
-
 netlify link
-
 netlify lm:setup
 ```
 
@@ -281,6 +279,7 @@ brew install --cask alfred bartender rocket bettertouchtool && \
 brew install --cask homebrew/cask-drivers/elgato-control-center && \
 brew install speedtest-cli && \
 brew install fig && \
+brew install --cask syncthing && \
 brew install --cask cleanshot
 ```
 
@@ -289,24 +288,25 @@ brew install --cask cleanshot
 ```bash
 brew install --cask altserver steam plex && \
 brew install --cask homebrew/cask-drivers/sony-ps-remote-play && \
-brew install --cask blender lycheeslicer
+brew install --cask blender lycheeslicer 
 ```
 
 ### 👩‍💻 macOS AppStore exclusive downloads
 
 These are some apps I love, but can't currently aquire via Homebrew
 
-| AppStore Link                                                                             | price     |                              Note |
-| :---------------------------------------------------------------------------------------- | --------- | --------------------------------: |
-| [Amphetamine](https://apps.apple.com/au/app/amphetamine/id937984704?mt=12)                | free      |          Prevent OS from sleeping |
-| [Lightweight PDF](https://apps.apple.com/au/app/lightweight-pdf/id1450640351?mt=12)       | free      |           Minify PDFs for sharing |
-| [Noizio Lite](https://apps.apple.com/au/app/noizio-lite-nature-sounds/id1481029536?mt=12) | free/paid |             white noise generator |
-| [Notability](https://apps.apple.com/au/app/notability/id360593530)                        | paid      |          Sync with iPad notes app |
-| [Spark Email](https://apps.apple.com/app/id1176895641)                                    | free      | a very amazing email experience\* |
-| [The Unarchiver](https://apps.apple.com/au/app/the-unarchiver/id425424353?mt=12)          | free      |     Slightly better archiving GUI |
-| [Things](https://apps.apple.com/au/app/things-3/id904280696?mt=12)                        | paid      |             The sexiest to-do app |
-| [Tomato](https://apps.apple.com/au/app/tomato-2-pomodoro-timer/id1494210770?mt=12)        | free/paid |               Tidy Pomodoro alarm |
-| [Xcode](https://apps.apple.com/au/app/xcode/id497799835?mt=12)                            | free      | Purely for simulating iOS devices |
+| AppStore Link                                                                       | price     |                               Note |
+| :---------------------------------------------------------------------------------- | --------- | ---------------------------------: |
+| [Amphetamine](https://apps.apple.com/au/app/amphetamine/id937984704)                | free      |           Prevent OS from sleeping |
+| [Lightweight PDF](https://apps.apple.com/au/app/lightweight-pdf/id1450640351)       | free      |            Minify PDFs for sharing |
+| [Noizio Lite](https://apps.apple.com/au/app/noizio-lite-nature-sounds/id1481029536) | free/paid |              white noise generator |
+| [Notability](https://apps.apple.com/au/app/notability/id360593530)                  | paid      |           Sync with iPad notes app |
+| [Spark Email](https://apps.apple.com/app/id1176895641)                              | free      |  a very amazing email experience\* |
+| [The Unarchiver](https://apps.apple.com/au/app/the-unarchiver/id425424353)          | free      |      Slightly better archiving GUI |
+| [Things 3](https://apps.apple.com/au/app/things-3/id904280696)                      | paid      |              The sexiest to-do app |
+| [Tomato 2](https://apps.apple.com/au/app/tomato-2-pomodoro-timer/id1494210770)      | free/paid |                Tidy Pomodoro alarm |
+| [Reeder 5](https://apps.apple.com/au/app/reeder-5/id1529448980)                     | paid      | I sync Pocket and FreshRSS to this |
+| [Xcode](https://apps.apple.com/au/app/xcode/id497799835)                            | free      |  Purely for simulating iOS devices |
 
 \* But do read the privacy policy
 
