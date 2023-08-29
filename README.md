@@ -40,6 +40,13 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 (follow the instructions, again)
 
+Install plugins
+
+```bash
+brew install spaceship zsh-autosuggestions zsh-syntax-highlighting
+``` 
+(no need to follow the instructions if using `./dotfiles/modules/sources.sh`)
+
 ### Configure Git Signing (GNUPG)
 
 This can be an awful process but I found [this](https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key) [combination](https://dev.to/wes/how2-using-gpg-on-macos-without-gpgtools-428f) of [solutions](https://gist.github.com/johnwgillis/e32e98846ec6136cb597dab57f0f7166#how-to-setup-gpg-for-signing-commits-with-git-sourcetree-and-github-on-mac) to work well for me.
@@ -278,7 +285,6 @@ netlify lm:setup
 brew install --cask alfred bartender rocket bettertouchtool && \
 brew install --cask homebrew/cask-drivers/elgato-control-center && \
 brew install speedtest-cli && \
-brew install fig && \
 brew install --cask syncthing && \
 brew install --cask cleanshot
 ```
