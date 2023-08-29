@@ -269,6 +269,15 @@ npm install -g netlify-cli
 netlify login
 ```
 
+#### 📦 Install [Package manager agnostic commands](https://github.com/antfu/ni)
+
+
+```bash
+npm install -g @antfu/ni
+```
+
+Referenced in aliases - `./dotfiles/modules/aliases.sh`
+
 #### 📹 Set up [Netlify Large Media](https://docs.netlify.com/large-media/setup/)
 
 _(requires [Git LFS](#install-git-large-file-storage))_

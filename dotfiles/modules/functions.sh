@@ -2,47 +2,6 @@
 ##--- Functions ---##
 ##-----------------##
 
-# Package manager agnostic shortcuts to run common commands inside projects
-
-# Start dev server
-dev () {
-  if [ -e yarn.lock ]
-    then
-      yarn run dev
-  elif [ -e pnpm.lock ]
-    then
-      pnpm run dev
-  else
-    npm run dev
-  fi
-}
-
-# Start Storybook
-sb () {
-  if [ -e yarn.lock ]
-  then
-    yarn run storybook
-  elif [ -e pnpm.lock ]
-    then
-      pnpm run storybook
-  else
-    npm run storybook
-  fi
-}
-
-# Run tests
-test () {
-  if [ -e yarn.lock ]
-    then
-      yarn run test:unit -u --watchAll
-  elif [ -e pnpm.lock ]
-    then
-      pnpm run test
-  else
-    npm run test
-  fi
-}
-
 # Shortcuts to cd into projects
 
 # Vu project
