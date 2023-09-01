@@ -14,5 +14,5 @@ test -e /opt/homebrew/opt/spaceship/spaceship.zsh && source /opt/homebrew/opt/sp
 # Source zsh-autosuggestions. Installed with `brew install zsh-autosuggestions`.
 test -e /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh && source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
-# Source zsh-syntax-highlighting. Installed with `brew install zsh-autosuggestions`.
+# Source zsh-syntax-highlighting. Installed with `brew install zsh-syntax-highlighting`.
 test -e /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh && source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
