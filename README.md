@@ -4,6 +4,27 @@ Opinionated notes and scripts for setting up a fresh macOS computer for web deve
 
 > 💡 I also have guides for [Linux](https://github.com/miclgael/setup-linux) and [Windows](https://github.com/miclgael/setup-win)!
 
+## ✨ Automated install
+
+If its your first time here, I'd recommend skipping this automated install and following the steps manually. This will give you a chance to read the instructions and make sure you're happy with everything.
+
+If you just want to run the whole thing in one go, you can use the following command:
+
+<details>
+  <summary>🚧 Are you sure you want to automate this?</summary>
+  <details>
+    <summary>Yes, please reveal</summary>
+
+    ```bash
+    bash <(curl -s https://raw.githubusercontent.com/miclgael/setup/main/scripts/main.sh)
+    ```
+  </details>
+</details>
+
+Or you can just clone the repo, CD in and run `sh scripts/main.sh`
+
+Please note, even if you do run the automated install, you'll still need to manually clean-up some steps at the end. So its a good idea to keep this README around.
+
 ## Steps:
 
 ### 🍻 Install [Homebrew](https://brew.sh/)
