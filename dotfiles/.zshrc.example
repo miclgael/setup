@@ -11,9 +11,6 @@ export ZSH="$HOME/.oh-my-zsh"
 # Abs path to custom dotfiles configs
 export DOTFILES_DIR="$HOME/Code/projects/setup/dotfiles"
 
-# Default theme
-ZSH_THEME="robbyrussell"
-
 # Import oh-my-zsh
 source $ZSH/oh-my-zsh.sh
 
