@@ -200,7 +200,8 @@ brew install --cask handbrake obs && \
 brew install progrium/taps/topframe && \
 brew install blackhole-16ch && \
 brew install --cask elektron-transfer && \
-brew install switchaudio-osx
+brew install switchaudio-osx && \
+brew install --cask vlc
 ```
 
 - [Run XLN Audio installer &rarr;](https://www.xlnaudio.com/install)
@@ -261,6 +262,13 @@ Required for the VS Code extension to work properly on single JS files.
 npm install -g eslint
 ```
 
+#### 📦 Install [Package manager agnostic commands](https://github.com/antfu/ni)
+
+
+```bash
+npm install -g @antfu/ni
+```
+
 #### 🖥️ Install Netlify CLI
 
 ```bash
@@ -269,12 +277,6 @@ npm install -g netlify-cli
 netlify login
 ```
 
-#### 📦 Install [Package manager agnostic commands](https://github.com/antfu/ni)
-
-
-```bash
-npm install -g @antfu/ni
-```
 
 Referenced in aliases - `./dotfiles/modules/aliases.sh`
 
@@ -298,7 +300,7 @@ brew install --cask syncthing && \
 brew install --cask cleanshot
 ```
 
-### 🎮 Install some distractions
+### 🎮 Install some distractions (optional)
 
 ```bash
 brew install --cask altserver steam plex && \
