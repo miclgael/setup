@@ -224,6 +224,8 @@ nvm install node # "node" is an alias for the latest version
 <details>
 <summary><strong>🤖 Auto-load from `.nvmrc` when changing directory</strong></summary>
 
+This can be skipped if using `./dotfiles/modules/scripts.sh`
+
 ```zsh
 # place this after nvm initialization!
 autoload -U add-zsh-hook
@@ -264,6 +266,7 @@ npm install -g eslint
 
 #### 📦 Install [Package manager agnostic commands](https://github.com/antfu/ni)
 
+Condenses 4+ package managers worth of commands into a single set.
 
 ```bash
 npm install -g @antfu/ni
@@ -308,6 +311,16 @@ brew install --cask homebrew/cask-drivers/sony-ps-remote-play && \
 brew install --cask blender lycheeslicer 
 ```
 
+### Link dotfiles (untested)
+
+@TODO - test this
+
+```bash
+git clone git@github.com:miclgael/setup.git ~/Code/projects/setup && \
+cd ~/Code/projects/setup && \
+mv ./dotfiles/.zshrc.example ~/.zshrc
+```
+
 ### 👩‍💻 macOS AppStore exclusive downloads
 
 These are some apps I love, but can't currently aquire via Homebrew
@@ -331,7 +344,7 @@ These are some apps I love, but can't currently aquire via Homebrew
 
 - Get [Custom iTerm Applescripts](https://github.com/stuartcryan/custom-iterm-applescripts-for-alfred) for Alfred
 - Grab [OBS Camera](https://obs.camera/docs/getting-started/ios-camera-plugin-usb/) for web-camming
-- Grab [DaVinci Resolve 17](https://www.blackmagicdesign.com/products/davinciresolve/) for video editing
+- Grab [DaVinci Resolve 18](https://www.blackmagicdesign.com/products/davinciresolve/) for video editing
 - Sign in to [SoundToys](https://www.soundtoys.com) to download plug-ins
 - Sign in to [Vital.audio](https://vital.audio) to download VST synth
 - Grab printer drivers from [Canon](https://www.canon.com.au/printers/pixma-mp230/support) and [TP-Link](https://www.tp-link.com/au/support/download/archer-vr2800/)
