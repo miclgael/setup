@@ -1,6 +1,6 @@
 # 🍎 setup
 
-Notes and scripts for setting up a new macOS dev environment _(Follow at your own risk / benefit)_
+Opinionated notes and scripts for setting up a fresh macOS computer for web development _(Follow at your own risk / benefit)_
 
 > 💡 I also have guides for [Linux](https://github.com/miclgael/setup-linux) and [Windows](https://github.com/miclgael/setup-win)!
 
