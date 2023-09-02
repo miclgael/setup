@@ -15,9 +15,8 @@ If you just want to run the whole thing in one go, you can use the following com
   <details>
     <summary>Yes, please reveal</summary>
 
-    ```bash
     bash <(curl -s https://raw.githubusercontent.com/miclgael/setup/main/scripts/main.sh)
-    ```
+
   </details>
 </details>
 
