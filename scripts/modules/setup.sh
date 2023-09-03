@@ -6,7 +6,7 @@
 # Original License can be found within the .github folder of this repo @ `.github/LICENSE-MIT.txt`
 
 heading 'Running setup.sh'
-info "This script will install Homebrew, Spaceship ZSH theme, and other useful tools.\nPlease enter your password."
+info "This script will install Homebrew, Spaceship ZSH theme, and other useful tools.\nPlease enter your password - the sudo session should stay alive for the entire process."
 
 # Ask for the administrator password upfront
 sudo -v
