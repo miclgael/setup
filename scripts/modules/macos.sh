@@ -7,13 +7,6 @@
 heading 'Running macos.sh'
 info 'This script will configure macOS settings.'
 
-# ~/.macos — https://mths.be/macos
-# Original copyright Mathias Bynens <https://mathiasbynens.be/>
-# Original License can be found within the .github folder of this repo @ `.github/LICENSE-MIT.txt`
-
-# My customisations on top of Mathias' original work can be observed
-# via the git history on branch `main`
-
 # Close any open System Preferences panes, to prevent them from overriding
 # settings we’re about to change
 osascript -e 'tell application "System Preferences" to quit'
