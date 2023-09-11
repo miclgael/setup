@@ -2,9 +2,6 @@
 ##--- Exports ---##
 ##---------------##
 
-# Path to oh-my-zsh
-export ZSH="~/.oh-my-zsh"
-
 # Fix for MAMP / WP CLI 
 export PATH=$PATH:/Applications/MAMP/Library/bin/
 
