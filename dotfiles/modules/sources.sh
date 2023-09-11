@@ -6,7 +6,7 @@
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
 # The next line updates PATH for Netlify's Git Credential Helper.
-test -f '~/Library/Preferences/netlify/helper/path.zsh.inc' && source '~/Library/Preferences/netlify/helper/path.zsh.inc'
+test -f "${HOME}/Library/Preferences/netlify/helper/path.zsh.inc" && source "${HOME}/Library/Preferences/netlify/helper/path.zsh.inc"
 
 # Source Spaceshipt prompt. Installed with `brew install spaceship`. Load from either directory.
 test -e /usr/local/opt/spaceship/spaceship.zsh && source /usr/local/opt/spaceship/spaceship.zsh
