@@ -6,27 +6,27 @@
 
 # Vu project
 vu () {
-  cd ~/Code/work/vu/vu
+  cd $HOME/Code/work/vu/vu
 }
 
 # Chia project
 chia () {
-  cd ~/Code/projects/chia
+  cd $HOME/Code/projects/chia
 }
 
 # Personal website
 mg () {
-  cd ~/Code/projects/nuxt3.michaelgale.dev
+  cd $HOME/Code/projects/nuxt3.michaelgale.dev
 }
 
 # Whalebones website 
 wb () {
-  cd ~/Code/projects/chia.whalebones.net
+  cd $HOME/Code/projects/chia.whalebones.net
 }
 
 # Oh Silence website
 oh () {
-  cd ~/Code/projects/chia.ohsilence.com
+  cd $HOME/Code/projects/chia.ohsilence.com
 }
 
 # SSH into remote server by name
