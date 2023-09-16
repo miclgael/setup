@@ -39,14 +39,13 @@ for APP_NAME in "Things3" \
   "Ableton Live 11 Suite" \
   "Loopback" \
   "Vital" \
+  "Plexamp" \
   "" \
   "Figma" \
   "Sketch" \
   "Nucleo" \
   "ColorSlurp" \
   "" \
-  "Obsidian" \
-  "Plexamp" \
   "Discord" \
   "Signal" \
   "Messages"; do

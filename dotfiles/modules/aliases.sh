@@ -12,3 +12,5 @@ alias dev='nr dev'
 alias sb='nr storybook'
 alias sbn='nr storybook:nuxt'
 alias unit='nr test:unit -u --watchAll'
+
+alias refreshdock='bash ~/Code/projects/setup/scripts/modules/dock.sh'
