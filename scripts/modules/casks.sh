@@ -12,7 +12,7 @@ info '👩‍💻 Installing development software'
 brew install --cask iterm2 visual-studio-code mamp codekit forklift tableplus tower obsidian insomnia docker
 
 info '💻 Installing web browsers'
-brew install --cask firefox homebrew/cask-versions/firefox-developer-edition google-chrome
+brew install --cask firefox librewolf homebrew/cask-versions/firefox-developer-edition google-chrome
 
 info '🎨 Installing design software'
 brew install --cask figma nucleo imageoptim
