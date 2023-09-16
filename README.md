@@ -357,6 +357,7 @@ These are some apps I love, but can't currently aquire via Homebrew
 | [Tomato 2](https://apps.apple.com/au/app/tomato-2-pomodoro-timer/id1494210770)      | free/paid |                Tidy Pomodoro alarm |
 | [Reeder 5](https://apps.apple.com/au/app/reeder-5/id1529448980)                     | paid      | I sync Pocket and FreshRSS to this |
 | [Xcode](https://apps.apple.com/au/app/xcode/id497799835)                            | free      |  Purely for simulating iOS devices |
+| [ColorSlurp](https://apps.apple.com/au/app/colorslurp/id1287239339?)                | free      | Keep track of branding and colours |
 
 \* But do read the privacy policy
 
