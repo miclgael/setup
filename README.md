@@ -381,9 +381,8 @@ killall Dock
 
 > 💡 **Tip** I usually add 7 gaps to visually separate my apps into the following 8 groups
 >
-> - Email + To-do
-> - Note taking
-> - Web browser
+> - Email, To-do, Calendar, Notes
+> - Web browsers
 > - Password / Auth
 > - Development tools
 > - Music apps
