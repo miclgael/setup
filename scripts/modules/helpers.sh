@@ -15,6 +15,7 @@ the_date=$(date +"%Y-%m-%d")
 the_time_am_pm=$(date +"%I:%M %p")
 
 function title() { printf "${BLUE}=====\n${1}\nDate: ${the_date} - Time: ${the_time_am_pm}\n=====${reset}\n"; }
+function end_credits() { printf "${BLUE}=====\n${1}\n=====${reset}\n"; }
 function heading() { printf "${WHITE}${1}${reset}\n"; }
 function warning() { printf "${magenta}Warning: ${1}${reset}\n"; }
 function error() { printf "${red}ERROR: ${1}${reset}\n"; }

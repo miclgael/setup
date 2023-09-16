@@ -40,3 +40,6 @@ info '🎮 Installing some distractions'
 brew install --cask altserver steam plex plexamp && \
 brew install --cask homebrew/cask-drivers/sony-ps-remote-play && \
 brew install --cask blender lycheeslicer 
+
+# Remove outdated versions from the cellar.
+brew cleanup
