@@ -27,6 +27,7 @@ info '🎹 Installing music and multimedia software'
 brew install --cask ableton-live-suite loopback handbrake obs elektron-transfer vlc && \ 
 brew install progrium/taps/topframe && \
 brew install blackhole-16ch && \
+brew install --cask soundtoys && \
 brew install switchaudio-osx
 
 info '🚀 Installing helpful utils'

@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Abs path to dotfiles
+DOTFILES_DIR="$HOME/Code/projects/setup/dotfiles"
+
 # Abs path to custom dotfiles configs
 SCRIPTS_DIR="$HOME/Code/projects/setup/scripts"
 
@@ -12,7 +15,9 @@ source $SCRIPTS_DIR/modules/brew.sh
 source $SCRIPTS_DIR/modules/casks.sh
 source $SCRIPTS_DIR/modules/node.sh
 source $SCRIPTS_DIR/modules/macos.sh
+source $SCRIPTS_DIR/modules/mas.sh
 source $SCRIPTS_DIR/modules/dock.sh
+source $SCRIPTS_DIR/modules/dotfiles.sh
 
 finish_date=$(date +"%Y-%m-%d")
 finish_time_am_pm=$(date +"%I:%M %p")

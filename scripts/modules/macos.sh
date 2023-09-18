@@ -649,6 +649,7 @@ for app in "Activity Monitor" \
 	"Address Book" \
 	"Calendar" \
 	"cfprefsd" \
+	"System Preferences" \
 	"Contacts" \
 	"Dock" \
 	"Finder" \
