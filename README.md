@@ -357,15 +357,27 @@ These are some apps I love, but can't currently aquire via Homebrew
 | [Tomato 2](https://apps.apple.com/au/app/tomato-2-pomodoro-timer/id1494210770)      | free/paid |                Tidy Pomodoro alarm |
 | [Reeder 5](https://apps.apple.com/au/app/reeder-5/id1529448980)                     | paid      | I sync Pocket and FreshRSS to this |
 | [Xcode](https://apps.apple.com/au/app/xcode/id497799835)                            | free      |  Purely for simulating iOS devices |
-| [ColorSlurp](https://apps.apple.com/au/app/colorslurp/id1287239339?)                | free      | Keep track of branding and colours |
+| [ColorSlurp](https://apps.apple.com/au/app/colorslurp/id1287239339)                | free      | Keep track of branding and colours |
+| [Davinci Resolve](https://apps.apple.com/au/app/davinci-resolve/id571213070)        | free      |          Now available in the MAS! |
 
 \* But do read the privacy policy
+
+#### See also, [mas-cli](https://github.com/mas-cli/mas)
+
+```
+brew install mas
+```
+
+#### Mig's Mas one-liner™
+
+```
+mas install 937984704 1450640351 1481029536 360593530 1176895641 425424353 904280696 1494210770 1529448980 1287239339 571213070
+```
 
 ### 🧼 Clean-up
 
 - Get [Custom iTerm Applescripts](https://github.com/stuartcryan/custom-iterm-applescripts-for-alfred) for Alfred
 - Grab [OBS Camera](https://obs.camera/docs/getting-started/ios-camera-plugin-usb/) for web-camming
-- Grab [DaVinci Resolve 18](https://www.blackmagicdesign.com/products/davinciresolve/) for video editing
 - Sign in to [SoundToys](https://www.soundtoys.com) to download plug-ins
 - Sign in to [Vital.audio](https://vital.audio) to download VST synth
 - Grab printer drivers from [Canon](https://www.canon.com.au/printers/pixma-mp230/support) and [TP-Link](https://www.tp-link.com/au/support/download/archer-vr2800/)
