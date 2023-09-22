@@ -1,23 +1,21 @@
 #!/bin/bash
-
 # Copyright 2023 Michael Gale <https://www.michaelgale.dev/>
 
-# Original copyright Mathias Bynens <https://mathiasbynens.be/>
-# Original License can be found within the .github folder of this repo @ `.github/LICENSE-MIT.txt`
-
-heading 'Running macos.sh'
+heading 'Running node.sh'
 info 'This script will install NVM and any node.js global packages.'
 
-# check for nvm
-if [[ $(test -f $HOME/.nvm) ]]; then
-  info 'Installing nvm'
-  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
-else
-  warning 'nvm already installed'
-fi
+LATEST_NVM=$({
+  curl -s https://api.github.com/repos/nvm-sh/nvm/releases | \
+    jq -r 'first(.[].tag_name | select(test("^v[0-9]")))'
+})
+
+# No need to compare versions, NVM will install or update from the same script.
+info 'Installing/updating nvm'
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/$LATEST_NVM/install.sh | bash
 
 # check for node
 if ! command -v node &> /dev/null; then
+  . ~/.nvm/nvm.sh
   info 'Installing node'
   nvm install node
   nvm alias default node
