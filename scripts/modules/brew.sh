@@ -18,8 +18,8 @@ brew install coreutils
 ln -s "${BREW_PREFIX}/bin/gsha256sum" "${BREW_PREFIX}/bin/sha256sum"
 
 # Install more GNU utils and other useful binaries.
-info 'Installing GNU versions of grep, openssh, php and composer'
-brew install grep openssh php composer
+info 'Installing GNU versions of grep, openssh, php, composer and jq'
+brew install grep openssh php composer jq
 
 # Install micro
 info 'Installing alternative terminal-based editor'
