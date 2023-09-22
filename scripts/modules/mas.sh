@@ -1,3 +1,6 @@
+#!/bin/bash
+# Copyright 2023 Michael Gale <https://www.michaelgale.dev/>
+
 # Install Mac App Store apps
 
 heading 'Running mas.sh'
