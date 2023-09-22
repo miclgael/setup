@@ -36,4 +36,3 @@ if open -Ra "OBS" ; then
 else
   warning "OBS is not installed."
 fi 
-
