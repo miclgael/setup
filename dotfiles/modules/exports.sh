@@ -13,6 +13,6 @@ export PATH="/usr/local/opt/php@7.4/sbin:$PATH"
 export GPG_TTY=$(tty)
 
 # pnpm
-export PNPM_HOME="~/Library/pnpm"
+export PNPM_HOME="$HOME/Library/pnpm"
 export PATH="$PNPM_HOME:$PATH"
 # pnpm end
