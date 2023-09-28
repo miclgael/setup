@@ -21,7 +21,7 @@ info '🛡️ Installing security and backup software'
 brew install --cask 1password nordvpn carbon-copy-cloner dropbox
 
 info '💬 Installing chat and teamwork software'
-brew install --cask microsoft-teams onedrive slack discord signal teamviewer zoom megasync
+brew install --cask microsoft-teams onedrive slack discord signal zoom megasync
 
 info '🎹 Installing music and multimedia software'
 brew install --cask ableton-live-suite loopback handbrake obs elektron-transfer vlc && \ 

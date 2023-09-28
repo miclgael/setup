@@ -209,7 +209,7 @@ brew install --cask 1password nordvpn carbon-copy-cloner dropbox
 ### 💬 Install chat and teamwork software
 
 ```bash
-brew install --cask microsoft-teams onedrive slack discord signal teamviewer zoom megasync
+brew install --cask microsoft-teams onedrive slack discord signal zoom megasync
 ```
 
 ### 🎹 Install music and multimedia software
