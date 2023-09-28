@@ -14,6 +14,10 @@ sudo -v
 # Keep-alive: update existing `sudo` time stamp until `.macos` has finished
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
+info "Thanks! First time round, this script will take about 35 minutes to complete. You can go grab a coffee or something.\n"
+
+sleep 5
+
 # Install homebrew if not already installed
 if ! command -v brew &> /dev/null; then
   info 'Installing Homebrew'

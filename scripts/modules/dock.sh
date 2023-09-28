@@ -13,15 +13,15 @@ for APP_NAME in "Things3" \
   "Calendar" \
   "Obsidian" \
   "" \
-  "Zoom" \
   "Spark" \
-  "Teams" \
-  "Outlook" \
+  "Microsoft Teams" \
+  "Microsoft Outlook" \
+  "zoom.us" \
   "" \
   "Firefox Developer Edition" \
   "Firefox" \
   "LibreWolf" \
-  "Chrome" \
+  "Google Chrome" \
   "" \
   "Reeder" \
   "Home" \
