@@ -9,7 +9,7 @@ heading 'Running casks.sh'
 info "This script will install casks (macOS Applictions) via Homebrew."
 
 info '👩‍💻 Installing development software'
-brew install --cask iterm2 visual-studio-code mamp codekit forklift tableplus tower obsidian insomnia docker
+brew install --cask iterm2 visual-studio-code mamp codekit tableplus tower obsidian insomnia docker
 
 info '💻 Installing web browsers'
 brew install --cask firefox librewolf homebrew/cask-versions/firefox-developer-edition google-chrome

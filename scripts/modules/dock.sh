@@ -32,7 +32,6 @@ for APP_NAME in "Things3" \
   "iTerm" \
   "Tower" \
   "Sourcetree" \
-  "ForkLift" \
   "Insomnia" \
   "Tableplus" \
   "" \
