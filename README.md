@@ -221,7 +221,8 @@ brew install progrium/taps/topframe && \
 brew install blackhole-16ch && \
 brew install --cask elektron-transfer && \
 brew install switchaudio-osx && \
-brew install --cask vlc
+brew install --cask vlc && \
+brew install --cask ilok-license-manager
 ```
 
 - [Run XLN Audio installer &rarr;](https://www.xlnaudio.com/install)

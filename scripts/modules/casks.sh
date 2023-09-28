@@ -28,7 +28,8 @@ brew install --cask ableton-live-suite loopback handbrake obs elektron-transfer 
 brew install progrium/taps/topframe && \
 brew install blackhole-16ch && \
 brew install --cask soundtoys && \
-brew install switchaudio-osx
+brew install switchaudio-osx && \
+brew install --cask ilok-license-manager
 
 info '🚀 Installing helpful utils'
 brew install --cask alfred bartender rocket bettertouchtool && \
