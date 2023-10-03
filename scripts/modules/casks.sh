@@ -8,6 +8,9 @@
 heading 'Running casks.sh'
 info "This script will install casks (macOS Applictions) via Homebrew."
 
+info '🛡️ Installing security and backup software'
+brew install --cask 1password nordvpn carbon-copy-cloner dropbox
+
 info '👩‍💻 Installing development software'
 brew install --cask iterm2 visual-studio-code mamp codekit tableplus tower obsidian insomnia docker
 
@@ -16,9 +19,6 @@ brew install --cask firefox librewolf homebrew/cask-versions/firefox-developer-e
 
 info '🎨 Installing design software'
 brew install --cask figma nucleo imageoptim
-
-info '🛡️ Installing security and backup software'
-brew install --cask 1password nordvpn carbon-copy-cloner dropbox
 
 info '💬 Installing chat and teamwork software'
 brew install --cask microsoft-teams onedrive slack discord signal zoom megasync
