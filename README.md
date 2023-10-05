@@ -4,7 +4,7 @@ Opinionated notes and scripts for setting up a fresh macOS computer for web deve
 
 > 💡 I also have guides for [Linux](https://github.com/miclgael/setup-linux) and [Windows](https://github.com/miclgael/setup-win)!
 
-**Requires macOS 11 or greater (And ideally macOS 12+)**
+**NB: Requires macOS 11+ (ideally macOS 12+)**
 
 ## ✨ Automated install
 
