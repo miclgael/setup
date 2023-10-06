@@ -383,7 +383,7 @@ mas install 937984704 1450640351 1481029536 360593530 1176895641 425424353 90428
 - Grab [OBS Camera](https://obs.camera/docs/getting-started/ios-camera-plugin-usb/) for web-camming (skip if using `./scripts/modules/cleanup.sh`)
 - Sign in to [Vital.audio](https://vital.audio) to download VST synth
 - Grab printer drivers from [Canon](https://www.canon.com.au/printers/pixma-mp230/support) and [TP-Link](https://www.tp-link.com/au/support/download/archer-vr2800/)
-- Grab some [custom app icons](https://macosicons.com/#/)
+- Grab some [custom app icons](https://macosicons.com/)
 
 **[Add spaces to the dock](https://css-tricks.com/snippets/html/add-spaces-to-dock-in-os-x/)**
 
