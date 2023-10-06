@@ -33,3 +33,12 @@ brew update
 # Upgrade any already-installed formulae.
 info 'Upgrading Homebrew'
 brew upgrade
+
+# Set git config values
+info 'Setting git config values'
+git config --global user.name "Michael Gale"
+git config --global user.email "michael@michaelgale.dev"
+git config --global core.editor "code --wait"
+git config --global init.defaultBranch "main"
+git config --global commit.gpgsign true
+git config --global pager.branch false

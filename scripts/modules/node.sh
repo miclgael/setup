@@ -23,10 +23,12 @@ else
   warning 'node already installed'
 fi
 
-# check for eslint
-if ! command -v eslint &> /dev/null; then
-  info 'Installing eslint, ni, and netlify-cli - globally'
-  npm install -g eslint @antfu/ni netlify-cli
-else
-  warning 'eslint already installed'
-fi
+# Check for each of utility and install if not already there
+for NPM_APP in "pnpm" "yarn" "eslint" "@antfu/ni" "netlify-cli"; do
+  if ! command -v $NPM_APP &> /dev/null; then
+    info "Installing $NPM_APP - globally"
+    npm install -g $NPM_APP
+  else
+    warning "$NPM_APP already installed"
+  fi
+done
