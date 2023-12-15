@@ -14,9 +14,14 @@ chia () {
   cd $HOME/Code/projects/chia
 }
 
+# Deku project
+deku () {
+  cd $HOME/Code/projects/deku
+}
+
 # Personal website
 mg () {
-  cd $HOME/Code/projects/nuxt3.michaelgale.dev
+  cd $HOME/Code/projects/michaelgale.dev
 }
 
 # Whalebones website 
@@ -27,6 +32,12 @@ wb () {
 # Oh Silence website
 oh () {
   cd $HOME/Code/projects/chia.ohsilence.com
+}
+
+# Jump to projects folder
+projects () {
+  cd $HOME/Code/projects/
+  ls -la
 }
 
 # SSH into remote server by name
