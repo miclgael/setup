@@ -16,3 +16,6 @@ export GPG_TTY=$(tty)
 export PNPM_HOME="$HOME/Library/pnpm"
 export PATH="$PNPM_HOME:$PATH"
 # pnpm end
+
+# Spaceship prompt custom settings go here
+export SPACESHIP_PACKAGE_SHOW_PRIVATE=true
