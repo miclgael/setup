@@ -13,4 +13,8 @@ alias sb='nr storybook'
 alias sbn='nr storybook:nuxt'
 alias unit='nr test:unit -u --watchAll'
 
+# MG specific shortcuts
+alias watch='nr watch'
+alias deploy='nr deploy:aio'
+
 alias refreshdock='bash ~/Code/projects/setup/scripts/modules/dock.sh'
