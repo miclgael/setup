@@ -15,6 +15,6 @@ alias unit='nr test:unit -u --watchAll'
 
 # MG specific shortcuts
 alias watch='nr watch'
-alias deploy='nr deploy:aio'
+alias deploy='nr deploy'
 
 alias refreshdock='bash ~/Code/projects/setup/scripts/modules/dock.sh'
