@@ -9,9 +9,10 @@
 
 # Package manager agnostic shortcuts (requires `npm i -g @antfu/ni`)
 alias dev='nr dev'
-alias sb='nr storybook'
-alias sbn='nr storybook:nuxt'
+
+alias sb='nr storybook:nuxt'
 alias unit='nr test:unit -u --watchAll'
+alias lint='onchange "**/*.ts" "**/*.js" "**/*.vue" --exclude-path .gitignore  -- eslint "$(echo {{file}})" --fix && yarn stylelint "$(echo {{file}})" --fix'
 
 # MG specific shortcuts
 alias watch='nr watch'
