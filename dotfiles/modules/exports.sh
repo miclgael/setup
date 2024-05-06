@@ -19,3 +19,6 @@ export PATH="$PNPM_HOME:$PATH"
 
 # Spaceship prompt custom settings go here
 export SPACESHIP_PACKAGE_SHOW_PRIVATE=true
+
+export PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true
+export PUPPETEER_EXECUTABLE_PATH=`which chromium`
