@@ -12,12 +12,10 @@ alias dev='nr dev'
 
 alias sb='nr storybook:nuxt'
 alias unit='nr test:unit -u --watchAll'
-alias lint='onchange "**/*.ts" "**/*.js" "**/*.vue" --exclude-path .gitignore  -- eslint "$(echo {{file}})" --fix && yarn stylelint "$(echo {{file}})" --fix'
+alias olint='onchange "**/*.ts" "**/*.js" "**/*.vue" --exclude-path .gitignore  -- eslint "$(echo {{file}})" --fix && yarn stylelint "$(echo {{file}})" --fix'
 
 # MG specific shortcuts
 alias watch='nr watch'
 alias deploy='nr deploy'
 
 alias refreshdock='bash ~/Code/projects/setup/scripts/modules/dock.sh'
-
-# Test
