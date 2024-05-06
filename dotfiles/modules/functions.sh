@@ -26,12 +26,12 @@ mg () {
 
 # Whalebones website 
 wb () {
-  cd $HOME/Code/projects/chia.whalebones.net
+  cd $HOME/Code/projects/whalebones.net
 }
 
 # Oh Silence website
 oh () {
-  cd $HOME/Code/projects/chia.ohsilence.com
+  cd $HOME/Code/projects/ohsilence.com
 }
 
 # Jump to projects folder
