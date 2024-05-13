@@ -155,7 +155,7 @@ gpg-agent --daemon
 ### 👩‍💻 Install development software
 
 ```bash
-brew install --cask iterm2 visual-studio-code mamp codekit tableplus tower obsidian insomnia docker && \
+brew install --cask iterm2 visual-studio-code mamp codekit tableplus tower obsidian insomnia docker fastfetch && \
 brew install --cask google-chrome firefox homebrew/cask-versions/firefox-developer-edition && \
 brew install composer
 ```
