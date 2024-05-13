@@ -19,3 +19,5 @@ alias watch='nr watch'
 alias deploy='nr deploy'
 
 alias refreshdock='bash ~/Code/projects/setup/scripts/modules/dock.sh'
+
+alias neofetch='echo "using fastfetch" && fastfetch'

@@ -12,7 +12,7 @@ info '🛡️ Installing security and backup software'
 brew install --cask 1password nordvpn carbon-copy-cloner dropbox
 
 info '👩‍💻 Installing development software'
-brew install --cask iterm2 visual-studio-code mamp codekit tableplus tower obsidian hoppscotch docker
+brew install --cask iterm2 visual-studio-code mamp codekit tableplus tower obsidian hoppscotch docker fastfetch
 
 info '💻 Installing web browsers'
 brew install --cask firefox librewolf homebrew/cask-versions/firefox-developer-edition google-chrome
