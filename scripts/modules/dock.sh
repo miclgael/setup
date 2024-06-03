@@ -9,42 +9,40 @@
 defaults write com.apple.dock persistent-apps -array
 
 # Fill the dock with apps in this list, incl. spaces.
-for APP_NAME in "Things3" \
-  "Calendar" \
+for APP_NAME in "Calendar" \
+  "Things3" \
+  "Spark" \
   "Obsidian" \
   "" \
-  "Spark" \
-  "Microsoft Teams" \
   "Microsoft Outlook" \
+  "Microsoft Teams" \
   "zoom.us" \
   "" \
-  "Firefox Developer Edition" \
   "Firefox" \
-  "LibreWolf" \
-  "Google Chrome" \
+  "Firefox Developer Edition" \
+  "Simulator" \
   "" \
   "Reeder" \
   "Home" \
   "1Password" \
-  "OBS" \
   "" \
   "Visual Studio Code" \
-  "iTerm" \
   "Tower" \
-  "Sourcetree" \
-  "Insomnia" \
-  "Tableplus" \
+  "iTerm" \
+  "Forklift" \
+  "Hoppscotch" \
   "" \
   "Ableton Live 11 Suite" \
-  "Loopback" \
   "Vital" \
   "Plexamp" \
   "" \
-  "Figma" \
   "Sketch" \
+  "PhotoMosh-PRO" \
   "Nucleo" \
   "ColorSlurp" \
   "" \
+  "Microsoft Remote Desktop" \
+  "NordVPN" \
   "Discord" \
   "Signal" \
   "Messages"; do
