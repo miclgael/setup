@@ -34,6 +34,7 @@ mas install 937984704 \
 1494210770 \
 1529448980 \
 1287239339 \
-571213070
+571213070 \
+1355679052
 
 success "Finished installing Mac App Store apps."
