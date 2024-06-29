@@ -405,4 +405,4 @@ killall Dock
 
 ## Credits
 
-- Some scripts include portions based on work by [Mathias Bynens](@mathiasbynens/dotfiles)
+- Some scripts include portions based on work by [Mathias Bynens](https://github.com/mathiasbynens/dotfiles)
