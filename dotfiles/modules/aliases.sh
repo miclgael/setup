@@ -8,7 +8,7 @@ alias dev='nr dev'
 # Nuxt specific shortcuts
 alias sb='nr storybook:nuxt'
 alias unit='nr test:unit -u --watchAll'
-alias olint='onchange "**/*.ts" "**/*.js" "**/*.vue" --exclude-path .gitignore  -- eslint "$(echo {{file}})" --fix && yarn stylelint "$(echo {{file}})" --fix'
+alias olint='onchange "**/*.ts" "**/*.js" "**/*.vue" --exclude-path .gitignore -- sh -c "yarn stylelint \"$(echo {{file}})\" --fix && eslint \"$(echo {{file}})\" --fix"' 
 
 # MG specific shortcuts
 alias watch='nr watch'
