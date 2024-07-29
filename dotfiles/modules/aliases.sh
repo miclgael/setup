@@ -8,11 +8,13 @@ alias dev='nr dev'
 # Nuxt specific shortcuts
 alias sb='nr storybook:nuxt'
 alias unit='nr test:unit -u --watchAll'
-alias olint='onchange "**/*.ts" "**/*.js" "**/*.vue" --exclude-path .gitignore -- sh -c "yarn stylelint \"$(echo {{file}})\" --fix && eslint \"$(echo {{file}})\" --fix"' 
 
 # MG specific shortcuts
 alias watch='nr watch'
 alias deploy='nr deploy'
+
+# NB: Requires `npm i -g onchange stylelint eslint` to be installed
+alias olint='onchange "**/*.ts" "**/*.js" "**/*.vue" --exclude-path .gitignore -- sh -c "yarn stylelint \"$(echo {{file}})\" --fix && eslint \"$(echo {{file}})\" --fix"' 
 
 # Re-run the `modules/dock.sh` script to refresh the dock to "default"
 alias refreshdock='bash ~/Code/projects/setup/scripts/modules/dock.sh'
