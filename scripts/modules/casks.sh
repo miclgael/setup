@@ -24,7 +24,7 @@ info '💬 Installing chat and teamwork software'
 brew install --cask microsoft-teams onedrive slack discord signal zoom megasync
 
 info '🎹 Installing music and multimedia software'
-brew install --cask ableton-live-suite loopback handbrake obs elektron-transfer vlc && \ 
+brew install --cask ableton-live-suite loopback handbrake obs vlc && \ 
 brew install progrium/taps/topframe && \
 brew install blackhole-16ch && \
 brew install --cask soundtoys && \
