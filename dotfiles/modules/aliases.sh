@@ -6,7 +6,7 @@
 alias dev='nr dev'
 
 # Nuxt specific shortcuts
-alias sb='nr storybook:nuxt'
+alias sb='nr storybook'
 alias unit='nr test:unit -u --watchAll'
 
 # MG specific shortcuts
