@@ -12,7 +12,6 @@ defaults write com.apple.dock persistent-apps -array
 for APP_NAME in "Calendar" \
   "Things3" \
   "Spark" \
-  "Thunderbird" \
   "Obsidian" \
   "" \
   "Microsoft Outlook" \
@@ -22,32 +21,17 @@ for APP_NAME in "Calendar" \
   "Firefox" \
   "Firefox Developer Edition" \
   "" \
-  "Reeder" \
   "1Password" \
-  "Home" \
   "" \
   "Visual Studio Code" \
   "Tower" \
   "iTerm" \
-  "Forklift" \
   "Hoppscotch" \
   "" \
-  "Ableton Live 11 Suite" \
-  "Vital" \
-  "Plexamp" \
-  "" \
   "Sketch" \
-  "PhotoMosh-PRO" \
   "Nucleo" \
-  "ColorSlurp" \
-  "" \
-  "Microsoft Remote Desktop" \
-  "RustDesk" \
-  "NordVPN" \
-  "" \
-  "Discord" \
-  "Signal" \
-  "Messages"; do
+  "ColorSlurp"; 
+do
 
 # Add Spacer to the Dock
 if [[ $APP_NAME == "" ]]; then
