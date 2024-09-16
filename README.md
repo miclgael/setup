@@ -155,7 +155,7 @@ gpg-agent --daemon
 ### 👩‍💻 Install development software
 
 ```bash
-brew install --cask iterm2 visual-studio-code mamp codekit tableplus tower obsidian insomnia docker fastfetch && \
+brew install --cask iterm2 visual-studio-code mamp codekit tableplus tower obsidian hoppscotch docker fastfetch && \
 brew install --cask google-chrome firefox homebrew/cask/firefox@developer-edition && \
 brew install composer
 ```
@@ -211,7 +211,7 @@ brew install --cask 1password nordvpn carbon-copy-cloner dropbox
 ### 💬 Install chat and teamwork software
 
 ```bash
-brew install --cask microsoft-teams onedrive slack discord signal zoom megasync
+brew install --cask microsoft-teams microsoft-outlook onedrive discord signal zoom megasync thunderbird
 ```
 
 ### 🎹 Install music and multimedia software
@@ -221,7 +221,6 @@ brew install --cask ableton-live-suite loopback && \
 brew install --cask handbrake obs && \
 brew install progrium/taps/topframe && \
 brew install blackhole-16ch && \
-brew install --cask elektron-transfer && \
 brew install switchaudio-osx && \
 brew install --cask vlc && \
 brew install --cask ilok-license-manager
@@ -279,42 +278,13 @@ load-nvmrc
 
 ### Install global node packages
 
-#### 📜 Install ES Lint
-
-Required for the VS Code extension to work properly on single JS files.
+Note: If using NVM, you may need to run this again once per node version.
 
 ```
-npm install -g eslint
+npm install -g onchange eslint@8.0.0 stylelint @antfu/ni 
 ```
-
-#### 📦 Install [Package manager agnostic commands](https://github.com/antfu/ni)
-
-Condenses 4+ package managers worth of commands into a single set.
-
-```bash
-npm install -g @antfu/ni
-```
-
-#### 🖥️ Install Netlify CLI
-
-```bash
-npm install -g netlify-cli
-
-netlify login
-```
-
 
 Referenced in aliases - `./dotfiles/modules/aliases.sh`
-
-#### 📹 Set up [Netlify Large Media](https://docs.netlify.com/large-media/setup/)
-
-_(requires [Git LFS](#install-git-large-file-storage))_
-
-```bash
-cd project-name
-netlify link
-netlify lm:setup
-```
 
 ### 🚀 Install helpful utils
 
@@ -322,16 +292,14 @@ netlify lm:setup
 brew install --cask alfred bartender rocket bettertouchtool && \
 brew install --cask homebrew/cask-drivers/elgato-control-center && \
 brew install speedtest-cli && \
-brew install --cask syncthing && \
-brew install --cask cleanshot
+brew install --cask syncthing cleanshot rustdesk
 ```
 
 ### 🎮 Install some distractions (optional)
 
 ```bash
-brew install --cask altserver steam plex && \
-brew install --cask homebrew/cask-drivers/sony-ps-remote-play && \
-brew install --cask blender lycheeslicer 
+brew install --cask steam plex && \
+brew install --cask homebrew/cask-drivers/sony-ps-remote-play
 ```
 
 ### Link dotfiles (untested)
@@ -340,13 +308,12 @@ brew install --cask blender lycheeslicer
 
 ```bash
 git clone git@github.com:miclgael/setup.git ~/Code/projects/setup && \
-cd ~/Code/projects/setup && \
-mv ./dotfiles/.zshrc.example ~/.zshrc
+mv ~/Code/projects/setup/dotfiles/.zshrc.example ~/.zshrc
 ```
 
 ### 👩‍💻 macOS AppStore exclusive downloads
 
-These are some apps I love, but can't currently aquire via Homebrew
+These are some apps I sometimes use, but can't currently aquire via Homebrew.
 
 | AppStore Link                                                                       | price     |                               Note |
 | :---------------------------------------------------------------------------------- | --------- | ---------------------------------: |
@@ -367,11 +334,15 @@ These are some apps I love, but can't currently aquire via Homebrew
 
 #### See also, [mas-cli](https://github.com/mas-cli/mas)
 
+MAS-CLI lets us install App Store apps through a CLI. You need to gather up their ID's by visiting each app's page in a web-browser. 
+
 ```
 brew install mas
 ```
 
 #### Mig's Mas one-liner™
+
+This one liner contains the ID's of each of the apps in the table above. Remember to sign into the App store at least once before running!
 
 ```
 mas install 937984704 1450640351 1481029536 360593530 1176895641 425424353 904280696 1494210770 1529448980 1287239339 571213070
@@ -402,6 +373,8 @@ killall Dock
 > - Music apps
 > - Design tools
 > - Misc.
+
+Referenced in scripts - `./scripts/modules/dock.sh` and `scripts/modules/dock-office.sh` (separate docks for personal and work computers).
 
 ## Credits
 
