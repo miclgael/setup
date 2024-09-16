@@ -67,7 +67,8 @@ Install plugins
 ```bash
 brew install spaceship zsh-autosuggestions zsh-syntax-highlighting
 ``` 
-(no need to follow the instructions if using `./dotfiles/modules/sources.sh`)
+
+<small>Reference `./dotfiles/modules/sources.sh`</small>
 
 ### Configure Git Signing (GNUPG)
 
@@ -214,6 +215,25 @@ brew install --cask 1password nordvpn carbon-copy-cloner dropbox
 brew install --cask microsoft-teams microsoft-outlook onedrive discord signal zoom megasync thunderbird
 ```
 
+<details>
+  <summary>Thunderbird notes</summary>
+
+  **Must-have extensions:**
+
+  1. [RemindMe](https://addons.thunderbird.net/en-US/thunderbird/addon/remindme/) - The missing snooze functionality for inbox zero freaks like me
+  2. [TbSync](https://addons.thunderbird.net/en-US/thunderbird/addon/tbsync/) - Calendar and contact syncing
+  3. [Provider for Exchange ActiveSync](https://addons.thunderbird.net/en-US/thunderbird/addon/eas-4-tbsync/) - Add-on for TbSync
+
+  **Preferences:**
+
+  1. Enabled quick filter: `View > Toolbars > Quick Filter Bar ✓`
+  2. Set layout vertical: `View > Layout > Vertical View ✓`
+  3. Use unified folders: `View > Folders > Folder Mode > Unified Folders ✓`
+  4. Density level: `View > Density > Default ✓`
+  5. Sort by descending: `View > Sort By > Date ✓ > Descending ✓`
+
+</details>
+
 ### 🎹 Install music and multimedia software
 
 ```bash
@@ -246,7 +266,7 @@ nvm install node # "node" is an alias for the latest version
 <details>
 <summary><strong>🤖 Auto-load from `.nvmrc` when changing directory</strong></summary>
 
-This can be skipped if using `./dotfiles/modules/scripts.sh`
+<small>Reference `./dotfiles/modules/scripts.sh`</small>
 
 ```zsh
 # place this after nvm initialization!
@@ -276,15 +296,15 @@ load-nvmrc
 
 </details>
 
-### Install global node packages
+### 🌐 Install global node packages
 
 Note: If using NVM, you may need to run this again once per node version.
 
-```
+```bash
 npm install -g onchange eslint@8.0.0 stylelint @antfu/ni 
 ```
 
-Referenced in aliases - `./dotfiles/modules/aliases.sh`
+<small>Reference `./dotfiles/modules/aliases.sh`</small>
 
 ### 🚀 Install helpful utils
 
@@ -302,7 +322,7 @@ brew install --cask steam plex && \
 brew install --cask homebrew/cask-drivers/sony-ps-remote-play
 ```
 
-### Link dotfiles (untested)
+### 🔗 Link dotfiles (untested)
 
 @TODO - test this
 
@@ -311,7 +331,27 @@ git clone git@github.com:miclgael/setup.git ~/Code/projects/setup && \
 mv ~/Code/projects/setup/dotfiles/.zshrc.example ~/.zshrc
 ```
 
+<small>Reference: `./dotfiles/main.sh`</small>
+
 ### 👩‍💻 macOS AppStore exclusive downloads
+
+#### 💻 Using MAS
+
+[mas-cli](https://github.com/mas-cli/mas) lets us install App Store apps through a CLI. You need to gather up the ID of each app by visiting their respective pages in a web-browser. 
+
+```
+brew install mas
+```
+
+#### 🔢 Mig's Mas one-liner™
+
+This one liner contains the ID's of each of the apps in the table below.<br> Remember to sign into the App store at least once before running!
+
+```
+mas install 937984704 1450640351 1481029536 360593530 1176895641 425424353 904280696 1494210770 1529448980 1287239339 571213070
+```
+
+#### 🧮 Manual AppStore reference
 
 These are some apps I sometimes use, but can't currently aquire via Homebrew.
 
@@ -331,22 +371,6 @@ These are some apps I sometimes use, but can't currently aquire via Homebrew.
 | [Davinci Resolve](https://apps.apple.com/au/app/davinci-resolve/id571213070)        | free      |          Now available in the MAS! |
 
 \* But do read the privacy policy
-
-#### See also, [mas-cli](https://github.com/mas-cli/mas)
-
-MAS-CLI lets us install App Store apps through a CLI. You need to gather up their ID's by visiting each app's page in a web-browser. 
-
-```
-brew install mas
-```
-
-#### Mig's Mas one-liner™
-
-This one liner contains the ID's of each of the apps in the table above. Remember to sign into the App store at least once before running!
-
-```
-mas install 937984704 1450640351 1481029536 360593530 1176895641 425424353 904280696 1494210770 1529448980 1287239339 571213070
-```
 
 ### 🧼 Clean-up
 
@@ -374,7 +398,9 @@ killall Dock
 > - Design tools
 > - Misc.
 
-Referenced in scripts - `./scripts/modules/dock.sh` and `scripts/modules/dock-office.sh` (separate docks for personal and work computers).
+I set up slightly different docks between my work and personal machines.
+
+<small>Reference: `./scripts/modules/dock.sh` + `scripts/modules/dock-office.sh`</small>
 
 ## Credits
 
