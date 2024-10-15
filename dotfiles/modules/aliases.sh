@@ -16,7 +16,7 @@ alias watch='nr watch'
 alias deploy='nr deploy'
 
 # NB: Requires `npm i -g onchange stylelint eslint@8.0.0` to be installed (temporary eslint config work around)
-alias olint='onchange "**/*.ts" "**/*.js" "**/*.vue" --exclude-path .gitignore -- sh -c "yarn stylelint \"$(echo {{file}})\" --fix && eslint \"$(echo {{file}})\" --fix"' 
+alias olint='onchange "**/*.scss" "**/*.ts" "**/*.js" "**/*.vue" --exclude-path .gitignore -- sh -c "yarn stylelint \"$(echo {{file}})\" --fix && eslint \"$(echo {{file}})\" --fix"'
 
 # Re-run the `modules/dock.sh` script to refresh the dock to "default"
 alias dock_home='bash ~/Code/projects/setup/scripts/modules/dock.sh'
