@@ -1,5 +1,10 @@
 # 🍎 setup
 
+> [!WARNING]
+> **Deprecated**<br>
+> This repo will soon be archived. It will stay accessible but I will no longer be making updates.
+> <br> I am moving to an "All-In-One" setup repo for macOS, Linux, Windows, SteamDeck and Ungoogled Android.
+
 Opinionated notes and scripts for setting up a fresh macOS computer for web development _(Follow at your own risk / benefit)_
 
 > 💡 I also have guides for [Linux](https://github.com/miclgael/setup-linux) and [Windows](https://github.com/miclgael/setup-win)!
